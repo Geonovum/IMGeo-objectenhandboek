@@ -38,7 +38,7 @@ script: |
   var lgimg = 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png';
   document.getElementById("logo").innerHTML = '<img src="'+lgimg+'" title="Ministerie van BZK" />';
   document.getElementsByClassName('status')[0].getElementsByClassName('title')[0].innerHTML = '<i class="fa fa-book"></i> Beheer en licentie';
-  document.getElementsByClassName('addons')[0].innerHTML = '<dl><dt><small>Geonovum ontwikkelt en beheert het digitale objectenhandboek BGT | IMGeo in opdracht van het Ministerie van Binnenlandse Zaken.<br /><br />Suggesties en (betere) foto\'s zijn van harte welkom op <a href="mailto:imgeo@geonovum.nl"> imgeo@geonovum.nl </a></small>.</dt></dl><hr />' + document.getElementsByClassName('addons')[0].innerHTML; 
+  document.getElementsByClassName('addons')[0].innerHTML = '<dl><dt><small>Geonovum ontwikkelt en beheert het digitale objectenhandboek BGT | IMGeo in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties.<br /><br />Suggesties en (betere) foto\'s zijn van harte welkom op <a href="mailto:imgeo@geonovum.nl"> imgeo@geonovum.nl </a></small>.</dt></dl><hr />' + document.getElementsByClassName('addons')[0].innerHTML; 
 
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   
