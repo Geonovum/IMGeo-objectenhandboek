@@ -113,7 +113,7 @@ Uitgewerkt voorbeeld
 In deze afbeelding staan een aantal objecten afgebeeld die nader beschreven
 zijn.
 
-1.  Dit **wegdeel** is een lokale weg. Let op: het zandpad naar rechts hoort ook
+A.  Dit **wegdeel** is een lokale weg. Let op: het zandpad naar rechts hoort ook
     bij dezelfde lokale weg omdat in principe de eigenschappen gelijk blijven.
     Het is aan de bronhouder om te bepalen of hij het al dan niet wenselijk acht
     om beide zandwegen als één of twee objecten te beschouwen.
@@ -124,14 +124,14 @@ zijn.
 | fysieke voorkomen | onverhard           |                 |
 | geometrie         | vlak                |                 |
 
-2.  Dit begroeide **terreindeel** is een bos met loofbomen.
+B.  Dit begroeide **terreindeel** is een bos met loofbomen.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde** | **Opmerkingen** |
 |-------------------------|---------------------|-----------------|
 | fysieke voorkomen       | loofbos             |                 |
 | geometrie               | vlak                |                 |
 
-3.  Dit **waterdeel** is een waterloop. De afbakening van de waterloop loopt van
+C.  Dit **waterdeel** is een waterloop. De afbakening van de waterloop loopt van
     kant insteek aan de zijde van de zandweg tot aan de kant insteek aan de
     zijde van de akker.
 
@@ -140,21 +140,21 @@ zijn.
 | type          | waterloop           |                 |
 | geometrie     | vlak                |                 |
 
-4.  Dit terreindeel is een akker en krijgt daarom het kenmerk ‘bouwland’.
+D.  Dit terreindeel is een akker en krijgt daarom het kenmerk ‘bouwland’.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde** | **Opmerkingen** |
 |-------------------------|---------------------|-----------------|
 | fysieke voorkomen       | bouwland            |                 |
 | geometrie               | vlak                |                 |
 
-5.  Deze boerderij is een opdelend **pand** en grenst aan het hiervoor genoemde
+E.  Deze boerderij is een opdelend **pand** en grenst aan het hiervoor genoemde
     erf.
 
 | **Pand**  | **Attribuutwaarde** | **Opmerkingen** |
 |-----------|---------------------|-----------------|
 | geometrie | multivlak           |                 |
 
-6.  Dit onbegroeide **terreindeel** is een erf dat grenst aan de boerderij.
+F.  Dit onbegroeide **terreindeel** is een erf dat grenst aan de boerderij.
 
 | **OnbegroeidTerreindeel** | **Attribuutwaarde** | **Opmerkingen** |
 |---------------------------|---------------------|-----------------|
@@ -163,8 +163,7 @@ zijn.
 
 Deze versie
 -----------
-Het IMGeo objectenhandboek is een dynamisch document en wordt continue aangevuld met voorbeelden. Voor een overzicht van de wijzigingen zie:
-release notes.
+Het IMGeo objectenhandboek is een dynamisch document en wordt continue aangevuld met voorbeelden. Voor een overzicht van de wijzigingen zie de [release notes](https://github.com/Geonovum/IMGeo-objectenhandboek/blob/master/RELEASENOTES).
 
 
 
