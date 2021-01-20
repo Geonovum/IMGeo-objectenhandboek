@@ -19,7 +19,7 @@ readme_index:
   
 script: | 
   console.log("Hallo IMGeo objectenhandboek!");
-  var url_prefix = "https://adbgnm.github.io/IMGeoOHtest/";
+  var url_prefix = "https://geonovum.github.io/IMGeo-objectenhandboek/";
   var breadcrumbs = window.location.href.replace(url_prefix, '').split('/');
   breadcrumbs.forEach(addLink);
   function addLink(value, index, array) { array[index] = '<a href="/' + value + '">' + value + '</a>'; };
