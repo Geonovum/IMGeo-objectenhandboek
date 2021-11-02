@@ -1,9 +1,4 @@
----
-title: Begroeidterreindeel
-permalink: /begroeidterreindeel
-sort: 6
----
-
+Begroeidterreindeel
 
 BegroeidTerreindeel
 ===================
@@ -19,15 +14,16 @@ inwinningsregels
 
 ### BGT
 
-Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-begroeidterreindeel)
+Bron: [Gegevenscatalogus BGT
+1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-begroeidterreindeel)
 
 >   **Indeling**
->   
+
 >   Deze terreindelen worden eveneens ingedeeld naar fysiek voorkomen en ook
 >   hier wordt, indien noodzakelijk, een kruinlijn opgenomen.
->   
+
 >   **Regels voor opname**
->   
+
 >   De kruinlijn moet bij het begroeid terreindeel worden opgenomen indien de
 >   helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en
 >   het hoogteverschil \>1m bedraagt. Een van de zijden van het begroeid
@@ -36,26 +32,27 @@ Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus
 >   ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een
 >   apart begrensd vlak ten opzichte van het deel van het object dat niet op het
 >   talud ligt.
->   
+
 >   **Bos**
->   
+
 >   Om een terreindeel als loofbos af te bakenen dient het minimimum percentage
 >   loofboom groter dan of gelijk aan 90% te zijn.
->   
+
 >   Om een terreindeel als naaldbos af te bakenen dient het minimum percentage
 >   naaldboom groter dan of gelijk aan 90 % te zijn.
->   
+
 >   Om een terreindeel als gemengd bos af te bakenen dient het maximum
 >   percentage naaldboom of het maximum percentage loofboom kleiner dan 90% te
 >   zijn.
->   
+
 >   Bij deze percentages worden het eventueel aanwezige onderhout en smalle
 >   stroken loof- en of naaldbos gelegen naast of als uitloper van het bos
 >   buiten beschouwing gelaten.
 
 ### IMGeo
 
-Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalogus/imgeo/#begroeidterreindeel-0)
+Bron: [Gegevenscatalogus IMGeo
+2.2](https://docs.geostandaarden.nl/imgeo/catalogus/imgeo/#begroeidterreindeel-0)
 
 >   In IMGeo kunnen begroeide terreindelen desgewenst nader worden ingedeeld
 >   naar fysiek voorkomen. Er zijn nadere detailleringen voor
@@ -77,7 +74,7 @@ gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -101,7 +98,7 @@ die periodiek wordt afgezet.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/7a5492c989204a4201f4f865520584c2.jpg)
 
@@ -122,7 +119,7 @@ vormen.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -142,7 +139,7 @@ meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -161,7 +158,7 @@ Terreindeel overwegend begroeid met heide en heideachtige vegetaties.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -182,7 +179,7 @@ wortel en afwezigheid van opvallende stammen.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -206,7 +203,7 @@ struiken.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -230,7 +227,7 @@ opgeworpen door wind of door stromend water.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -251,7 +248,7 @@ Duin met een overwegend grasachtige vegetatie.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/1b5364f3320b9227322e80546e837d1c.jpg)
 
@@ -268,7 +265,7 @@ Duin met een overwegend opgaande vegetatie van struiken en of bomen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/372749792295d9270cb53a47b3e263ed.jpg)
 
@@ -287,7 +284,7 @@ doeleinden.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -315,7 +312,7 @@ merkbare toe- of afvloeiing.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -336,7 +333,7 @@ Terreindeel overwegend begroeid met rietvegetatie.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -358,7 +355,7 @@ onder loopt.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -382,7 +379,7 @@ laagstamboomgaard, druiven of kleinfruit.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -403,7 +400,7 @@ Terreindeel begroeid met laagstamfruitbomen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/9460c1813b66f5162c3c0eb1a2ce2bbb.jpg)
 
@@ -420,7 +417,7 @@ Terreindeel begroeid met hoogstamfruitbomen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/d1164514a6b9f4cef18fc3273650fab5.jpg)
 
@@ -437,7 +434,7 @@ Terreindeel begroeid met druivenstokken voor wijnbouw.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/e9af6b94ed47e27de9788b74f5d1d51f.jpg)
 
@@ -454,7 +451,7 @@ Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/88c0b0127a0467fd3d3d802aab45aa36.jpg)
 
@@ -472,7 +469,7 @@ van een later gebruik elders.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -492,7 +489,7 @@ zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -515,7 +512,7 @@ Terreindeel in gebruik als akker, voor de teelt van akkerbouwgewassen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/36f699dde264a7be4a908d175de0d93b.jpg)
 
@@ -532,7 +529,7 @@ Terrein in gebruik als akker, maar tijdelijk niet beteeld met een landbouwgewas.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/d3c0580a0ac34dbbc4247743c2c57c83.jpg)
 
@@ -549,7 +546,7 @@ Terreindeel in gebruik als akker, voor de teelt van tuinbouwgewassen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/a783eb5333e025867c894d1f2740a52e.jpg)
 
@@ -566,7 +563,7 @@ Terreindeel in gebruik als akker, voor de teelt van bloembollen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/ef8cfe7acad4528acdaa3f1e6cca1121.jpg)
 
@@ -585,7 +582,7 @@ voor de veeteelt, bijvoorbeeld als weiland of als hooiland.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -612,7 +609,7 @@ Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken.
 
 **Verplicht?**
 
-Nee, optionele inhoud IMGeo.
+Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
@@ -649,7 +646,7 @@ zich van heesters omdat de sierkenmerken niet voorop staan.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/64a9091f4187be567b6b7606db3a392d.jpg)
 
@@ -668,7 +665,7 @@ Ja, verplichte inhoud BGT.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/fde34790554d5ef7dab21c24b85f5702.jpg)
 
@@ -692,7 +689,7 @@ ruimte.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/dd94fbbf5efae4705692e06afba56120.jpg)
 
@@ -710,7 +707,7 @@ groeiende rozen.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/5d392d841297d1b131dfca477f0bc822.jpg)
 
@@ -731,7 +728,7 @@ gewassen is meer dan 50% van de totale oppervlakte van het vak.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/7f765f468171877b38414cb6a7e3babc.jpg)
 
@@ -750,7 +747,7 @@ Beheerde beplanting van groenvak in de openbare ruimte, zijnde bodembedekkers.
 
 **Verplicht?**
 
-Ja, verplichte inhoud BGT.
+Nee, optionele inhoud IMGeo.
 
 ![](media/dc18491853fee374fe565e97deb1ece4.jpg)
 
