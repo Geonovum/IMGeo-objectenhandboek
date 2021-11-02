@@ -1,3 +1,9 @@
+---
+title: Begroeidterreindeel
+permalink: /begroeidterreindeel
+sort: 6
+---
+
 BegroeidTerreindeel
 ===================
 
