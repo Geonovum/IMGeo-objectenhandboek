@@ -164,12 +164,6 @@ De doorgaande (hoofd)gevel prevaleert.
 Balkons zijn geen BAG- en geen BGT-inhoud. Er bevindt zich op de rechter foto
 onder het balkon van de eerste verdieping een berging. Deze wordt geregistreerd.
 
-#### Galerijen
-
-De buitenste begrenzing van galerijen behoort tot de BAG-geometrie.
-
-![](media/cfe7ff90cb186ae8d46f7dd1a54015ac.jpg)
-
 #### Erkers
 
 Voor erkers die ‘aan de gevel’ hangen gelden de regels voor overbouw zoals
