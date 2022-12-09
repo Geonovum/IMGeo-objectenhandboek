@@ -1,10 +1,7 @@
-\---
-
+---
 permalink: /veelgesteldevragen
-
 sort: 39
-
-\---
+---
 
 Veelgestelde vragen
 ===================
