@@ -11,6 +11,7 @@ exclude:
   - Makefile
   - Gemfile
   - Gemfile.lock
+  - veelgesteldevragen.md
 
 remote_theme: rundocs/jekyll-rtd-theme
 
