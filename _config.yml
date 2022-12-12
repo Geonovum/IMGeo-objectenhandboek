@@ -11,7 +11,6 @@ exclude:
   - Makefile
   - Gemfile
   - Gemfile.lock
-  - veelgesteldevragen.md
 
 remote_theme: rundocs/jekyll-rtd-theme
 
@@ -45,7 +44,7 @@ script: |
   jiraHelpdesk(function() {var DOMContentLoaded_event = document.createEvent('Event');  DOMContentLoaded_event.initEvent('DOMContentLoaded', true, true);window.document.dispatchEvent(DOMContentLoaded_event);});
   
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
-
+  document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
 
   
 scss: |
