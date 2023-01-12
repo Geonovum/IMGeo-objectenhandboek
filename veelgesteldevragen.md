@@ -9,7 +9,7 @@ Veelgestelde vragen
 Hieronder volgt een overzicht van veelgestelde vragen aan de IMGeo helpdesk over
 de toepassing van inwinregels en classificaties in de BGT\|IMGeo standaarden.
 
-Van de onderstaande objecttypen was niet duidleijk genoeg aangegeven (in de catalogi BGT of IMGeo, of in het objectenhandboek) op welke manier het object het beste afgebakend zou worden. Door deze onduidelijkheid ontstaan in de BGT diverse manieren van afbakening en dat komt de consistentie van de BGT niet ten goede.
+Van de onderstaande objecttypen was niet duidelijk genoeg aangegeven (in de catalogi BGT of IMGeo, of in het objectenhandboek) op welke manier het object het beste afgebakend zou worden. Door deze onduidelijkheid ontstaan in de BGT diverse manieren van afbakening en dat komt de consistentie van de BGT niet ten goede.
 
 iedere vraag wordt afgesloten met een advies.
 
