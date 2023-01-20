@@ -78,6 +78,7 @@ voorbeeld
 ## **Hoe baken ik een oplaadpaal af in IMGeo?**
 
 IMGeo heeft geen eigen classificatie voor een oplaadpaal. 
+
 De aanbeveling is om een oplaadpaal als objecttype Paal zonder nadere classificatie op te nemen. In de beheerapplicatie kan een nadere detaillering van de Paal gegeven worden.
 
 Voorbeeld
@@ -87,7 +88,7 @@ Voorbeeld
 
 ## **Hoe baken ik een haagvak af in de BGT?**
 
-De BGT kent geen specifiek objecttype 'Haagvak'. 
+De BGT kent geen specifiek objecttype 'Haagvak'.
 
 Het advies is om een haag op te nemen en eronder een "haagvak" te leggen. 
 Dit doe je door de haag op te nemen als een optioneel objecttype Vegetatieobject (lijn of vlak), van het type Haag. Het haagvlak wordt afgebakend door het opnemen van een verplicht object BegroeidTerreindeel, van het type Groenvoorziening. In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'haagvak') aan worden toegevoegd.
@@ -104,6 +105,32 @@ Voorbeeld
 
 
 ## **Hoe baken ik doorsteken bij provinciale wegen af in de BGT?**
+
+
+
+
+## **Hoe worden nevenadressen opgenomen in een nummeraanduidingreeks bij een Pand?**
+In de BGT gegevenscatalogus worden geen eisen gesteld aan het wel/niet opnemen van nevenadressen bij een Pand in de BGT. Voor een goede oriëntatie en het gebruik van de BGT-kaart is het zichtbaar zijn van nevenadressen in de BGT kaart wel wenselijk.
+
+Het advies is om ook de nummeraanduidingsreeksen van nevenadressen die aanwezig zijn in de BAG op te nemen in de BGT. Hiervoor gelden dezelfde spelregels als voor de reguliere nummeraanduidingsreeksen.
+
+voorbeeld
+
+{foto frank de jong}
+
+
+## **Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
+In de gegevenscatalogi (BGT en Imgeo) zijn geen classificatie opgenomen om een terrein te benoemen als zonneakker. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden.
+
+Het advies is om het terrein af te bakenen als een IMGeo objecttype FunctioneelGebied, zonder verdere classificatie. Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden, door het opvoeren van het IMGeo objecttype Installatie van het type Zonnepaneel. Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
+In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'zonneakker') aan worden toegevoegd.
+
+Voorbeeld
+{foto}
+
+
+
+
 
 
 
