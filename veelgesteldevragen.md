@@ -126,7 +126,10 @@ Het advies is om het terrein af te bakenen als een IMGeo objecttype FunctioneelG
 In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'zonneakker') aan worden toegevoegd.
 
 Voorbeeld
-{foto}
+
+![zonneakker](https://user-images.githubusercontent.com/62252105/214539234-29b7a5ae-a39b-4d27-a2ca-9203bcb31023.jpg)
+
+
 
 
 
