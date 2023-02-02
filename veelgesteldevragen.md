@@ -112,11 +112,6 @@ Voorbeeld
 
 
 
-## **Hoe baken ik doorsteken bij provinciale wegen af in de BGT?**
-
-
-
-
 ## **Hoe worden nevenadressen opgenomen in een nummeraanduidingreeks bij een Pand?**
 In de BGT gegevenscatalogus worden geen eisen gesteld aan het wel/niet opnemen van nevenadressen bij een Pand in de BGT. Voor een goede oriëntatie en het gebruik van de BGT-kaart is het zichtbaar zijn van nevenadressen in de BGT kaart wel wenselijk.
 
