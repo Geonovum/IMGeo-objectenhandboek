@@ -61,7 +61,7 @@ Het omliggende terras/vlonder maakt _geen_ onderdeel uit van de geometrie van he
 
 Voorbeeld
 
-![Strandpaviljoen-Paal-10-Ouddorp](https://user-images.githubusercontent.com/62252105/212058286-443eca43-32ae-4cff-9ceb-04bc107f4eed.jpg)
+![Strandpaviljoen-Paal-10-Ouddorp](https://user-images.githubusercontent.com/62252105/216338137-92e4c484-f8a5-45d2-a31d-ca4f93e959fd.jpg)
 
 
 ## **Hoe baken ik houten fiets- of voetbruggetjes af in de BGT?**
@@ -98,7 +98,7 @@ Voorbeeld
 ![image](https://user-images.githubusercontent.com/62252105/212030752-fc8c7411-46d4-48fa-916d-a7b1117ec350.png)
 
 
-## **hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
+## **Hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
 Er ontbreekt een imgeo classificatie voor verkeerslicht of VRI. Je kan het beste zo dicht mogelijk bij de werkelijkheid proberen te komen.
 
 Advies is om de paal op te nemen als Imgeo objecttype Paal, van het Type Verkeersregelinstallatiepaal, op rh = 0.
@@ -141,10 +141,32 @@ Voorbeeld
 ![zonneakker](https://user-images.githubusercontent.com/62252105/214539234-29b7a5ae-a39b-4d27-a2ca-9203bcb31023.jpg)
 
 
+## **Hoe baken ik een galerij en bijbehorende trap af van een flat?**
+Een gallerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt.
+Het advies is om de galerij op te nemen als een objecttype GebouwInstallatie zonder nadere classificatie, op rh > 0.
+De toeganstrap wordt opgenomen als een objecttype GebouwInstallatie van het type Toegangstrap.
+
+Voorbeeld
+
+![galerijflat](https://user-images.githubusercontent.com/62252105/216328443-ae8d0cd5-a93a-4c28-b204-2e43a8ca2743.jpg)
+In dit voorbeeld zijn er 2 galerijen (objecttype GebouwInstallatie) op rh=1 en rh = 2.
+
+![galerij met trap](https://user-images.githubusercontent.com/62252105/216329170-53f697ff-38a9-454b-9806-ff45e59a2b8d.jpg)
+In dit voorbeeld zijn er 2 galerijen (objecttype GebouwInstallatie-zonder classificatie) op rh=1 en rh = 2. De trap is een GebouwInstallatie-toegangstrap, rh = 0. 
 
 
+## **Wat is het verschil tussen een OnbegroeidTerreindeel met fysiekvoorkomen 'zand' en 'onverhard - zand'?**
+Het bgt-fysiekvoorkomen 'zand' bij OnbegroeidTerreindeel is bedoeld als zandvlakte, waarmee je dus een strand, strandwallen, en duinen kunt afbakenen.
 
+Voorbeeld
 
+![strand](https://user-images.githubusercontent.com/62252105/216337841-8bbb752d-1c46-47bf-82c2-dd32844c65b6.jpg)
+
+Het OnbegroeidTerreindeel met FysiekVoorkomen Onverhard- en IMgeo de toevoeging Zand, wordt toegepast voor een braakliggende terrein.
+
+Voorbeeld
+
+![vacant-lot-park-grassland-ecosystem-pasture-land-lot-1442455-pxhere com](https://user-images.githubusercontent.com/62252105/216337206-b191e989-904e-4863-871c-db64761fd193.jpg)
 
 
 
