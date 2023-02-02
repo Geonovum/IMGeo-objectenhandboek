@@ -99,8 +99,16 @@ Voorbeeld
 
 
 ## **hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
+Er ontbreekt een imgeo classificatie voor verkeerslicht of VRI. Je kan het beste zo dicht mogelijk bij de werkelijkheid proberen te komen.
 
+Advies is om de paal op te nemen als Imgeo objecttype Paal, van het Type Verkeersregelinstallatiepaal, op rh = 0.
 
+Voor het verkeerslicht zelf is het advies om hiervoor op te nemen een objecttype Installatie, zonder nadere classificatie en deze op rh = 1 te lokaliseren.
+In de beheerapplicatie kun je in detail aangeven om welke installatie het gaat.
+
+Voorbeeld
+
+![verkeerslicht](https://user-images.githubusercontent.com/62252105/216049084-fcb6462a-0764-44db-b75a-39271cf5e871.jpg)
 
 
 
@@ -114,9 +122,12 @@ In de BGT gegevenscatalogus worden geen eisen gesteld aan het wel/niet opnemen v
 
 Het advies is om ook de nummeraanduidingsreeksen van nevenadressen die aanwezig zijn in de BAG op te nemen in de BGT. Hiervoor gelden dezelfde spelregels als voor de reguliere nummeraanduidingsreeksen.
 
-voorbeeld
+Voorbeeld
 
-{foto frank de jong}
+![nevenadressen](https://user-images.githubusercontent.com/62252105/216054980-a66aa159-1fab-416f-bf09-d1c1d089a97b.JPG)
+
+De nummers 17 en 143 zijn nevenadressen.
+
 
 
 ## **Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
