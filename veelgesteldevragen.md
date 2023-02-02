@@ -15,7 +15,7 @@ iedere vraag wordt afgesloten met een advies.
 
 
 
-## **Hoe neem ik objecten op in IMGeo waar geen classificatie voor is?**
+## **1. Hoe neem ik objecten op in IMGeo waar geen classificatie voor is?**
 Het komt regelmatig voor dat bv een specifiek type kast, of een bepaald type bord als een classificatie ontbreekt in IMGeo. Het betreft vooral de optionele inrichtingselementen uit het optionele deel, zoals bak, bord, kast, etc. 
 
 ![image](https://user-images.githubusercontent.com/62252105/212054173-ea4d99ab-f108-44e2-a53e-b16605ada30d.png)
@@ -35,7 +35,7 @@ Kast is een optioneel objecttype en kan zonder verdere waarde van type Kast afge
 
 
 
-## **Hoe baken ik een fietsstraat af in BGT?**
+## **2. Hoe baken ik een fietsstraat af in BGT?**
 
 BGT hanteert als uitgangspunt: dat wat je ziet baken je af. Een wegdeel aangegeven met verkeersbord 'Fietsstraat, auto te gast' (L51b) is eigenlijk voor de BGT niets anders dan twee fietsstroken met een al dan niet verhoogd middenstuk bedoeld voor lokaal verkeer. 
 Advies: De aanbeveling is dus om de fietsstroken als Wegdeel met functie 'fietspad' en de middenstrook als Wegdeel met functie 'lokale weg' af te bakenen.
@@ -50,7 +50,7 @@ en
 
 
 
-## **Hoe baken ik strandpaviljoens met terras/vlonder af in de BGT?**
+## **3. Hoe baken ik strandpaviljoens met terras/vlonder af in de BGT?**
 
 Of een strandpaviljoen wordt afgebakend als Pand in de BGT, is afhankelijk van de regels voor de BAG. 
 Het is verplicht om een strandpaviljoen dat is opgenomen in de BAG als een BAG pand, op te nemen als BGT Pand in de BGT.
@@ -64,7 +64,7 @@ Voorbeeld
 ![Strandpaviljoen-Paal-10-Ouddorp](https://user-images.githubusercontent.com/62252105/216338137-92e4c484-f8a5-45d2-a31d-ca4f93e959fd.jpg)
 
 
-## **Hoe baken ik houten fiets- of voetbruggetjes af in de BGT?**
+## **4. Hoe baken ik houten fiets- of voetbruggetjes af in de BGT?**
 
 Hout komt in de BGT of IMGGeo als FysiekVoorkomen niet voor. Toch wil je houten fiets- en/of voetbruggetjes afbakenen. Je bakent de brug af en daarop leg je een fiets/voetpad van "hout".
 
@@ -75,7 +75,7 @@ voorbeeld
 ![houten brug](https://user-images.githubusercontent.com/62252105/211833931-1e2e757f-81c4-4d9e-b124-a0d036096a0b.jpg)
 
 
-## **Hoe baken ik een oplaadpaal af in IMGeo?**
+## **5. Hoe baken ik een oplaadpaal af in IMGeo?**
 
 IMGeo heeft geen eigen classificatie voor een oplaadpaal. 
 
@@ -86,7 +86,7 @@ Voorbeeld
 ![oplaadpaal](https://user-images.githubusercontent.com/62252105/211834525-e257c1f9-dde3-414e-965e-4e6d4eb6ab11.jpg)
 
 
-## **Hoe baken ik een haagvak af in de BGT?**
+## **6. Hoe baken ik een haagvak af in de BGT?**
 
 De BGT kent geen specifiek objecttype 'Haagvak'.
 
@@ -98,7 +98,7 @@ Voorbeeld
 ![image](https://user-images.githubusercontent.com/62252105/212030752-fc8c7411-46d4-48fa-916d-a7b1117ec350.png)
 
 
-## **Hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
+## **7. Hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
 Er ontbreekt een imgeo classificatie voor verkeerslicht of VRI. Je kan het beste zo dicht mogelijk bij de werkelijkheid proberen te komen.
 
 Advies is om de paal op te nemen als Imgeo objecttype Paal, van het Type Verkeersregelinstallatiepaal, op rh = 0.
@@ -112,7 +112,7 @@ Voorbeeld
 
 
 
-## **Hoe worden nevenadressen opgenomen in een nummeraanduidingreeks bij een Pand?**
+## **8. Hoe worden nevenadressen opgenomen in een nummeraanduidingreeks bij een Pand?**
 In de BGT gegevenscatalogus worden geen eisen gesteld aan het wel/niet opnemen van nevenadressen bij een Pand in de BGT. Voor een goede oriëntatie en het gebruik van de BGT-kaart is het zichtbaar zijn van nevenadressen in de BGT kaart wel wenselijk.
 
 Het advies is om ook de nummeraanduidingsreeksen van nevenadressen die aanwezig zijn in de BAG op te nemen in de BGT. Hiervoor gelden dezelfde spelregels als voor de reguliere nummeraanduidingsreeksen.
@@ -125,7 +125,7 @@ De nummers 17 en 143 zijn nevenadressen.
 
 
 
-## **Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
+## **9. Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
 In de gegevenscatalogi (BGT en Imgeo) zijn geen classificatie opgenomen om een terrein te benoemen als zonneakker. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden.
 
 Het advies is om het terrein af te bakenen als een IMGeo objecttype FunctioneelGebied, zonder verdere classificatie. Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden, door het opvoeren van het IMGeo objecttype Installatie van het type Zonnepaneel. Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
@@ -136,8 +136,8 @@ Voorbeeld
 ![zonneakker](https://user-images.githubusercontent.com/62252105/214539234-29b7a5ae-a39b-4d27-a2ca-9203bcb31023.jpg)
 
 
-## **Hoe baken ik een galerij en bijbehorende trap af van een flat?**
-Een gallerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt.
+## **10. Hoe baken ik een galerij en bijbehorende trap af van een flat?**
+Een gallerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt. 
 Het advies is om de galerij op te nemen als een objecttype GebouwInstallatie zonder nadere classificatie, op rh > 0.
 De toeganstrap wordt opgenomen als een objecttype GebouwInstallatie van het type Toegangstrap.
 
@@ -150,7 +150,7 @@ In dit voorbeeld zijn er 2 galerijen (objecttype GebouwInstallatie) op rh=1 en r
 In dit voorbeeld zijn er 2 galerijen (objecttype GebouwInstallatie-zonder classificatie) op rh=1 en rh = 2. De trap is een GebouwInstallatie-toegangstrap, rh = 0. 
 
 
-## **Wat is het verschil tussen een OnbegroeidTerreindeel met fysiekvoorkomen 'zand' en 'onverhard - zand'?**
+## **11. Wat is het verschil tussen een OnbegroeidTerreindeel met fysiekvoorkomen 'zand' en 'onverhard - zand'?**
 Het bgt-fysiekvoorkomen 'zand' bij OnbegroeidTerreindeel is bedoeld als zandvlakte, waarmee je dus een strand, strandwallen, en duinen kunt afbakenen.
 
 Voorbeeld
