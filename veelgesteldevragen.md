@@ -22,14 +22,14 @@ Het komt regelmatig voor dat bv een specifiek type kast, of een bepaald type bor
 
 In IMGeo mogen objecten worden opgenomen (en aangeleverd aan de LV BGT) zonder dat Type ingevuld is (die is dan \<leeg\>).
 
-De aanbeveling is om het objecttype te kiezen die het meest past bij de definitie, en het type leeg te laten. In de eigen beheeromgeving kan een nadere classificatie worden opgenomen. Deze kan niet met de LV BGT worden uitgewisseld.
+De aanbeveling is om het objecttype te kiezen die het meest past bij de definitie, en het type leeg te laten. In de eigen beheeromgeving kan een nadere classificatie worden opgenomen. Deze nadere classificatie kan niet met de LV BGT worden uitgewisseld.
 
 
 Voorbeeld
 
-Er ontbreekt een imgeo classificatie voor bv post- en pakketautomaten. Deze automaten zouden geschaard kunnen worden onder een type Kast, zie foto. 
+Er ontbreekt een imgeo classificatie voor bv post- en pakketautomaten. Deze automaten lijken het meest op een soort Kast, zie foto. 
 
-Kast is een optioneel objecttype en kan zonder verdere waarde van type Kast afgebakend worden. In een beheerregistratie (BOR) kan aan de Kast een nadere detaillering toegevoegd worden
+Het advies is om de pakketautomaat als een Kast op te nemen met als TypeKastPlus is \<leeg\>. In een beheerregistratie (BOR) kan aan de Kast een nadere type detaillering toegevoegd worden.
 
 ![Pakketautomaat_Rolde](https://user-images.githubusercontent.com/62252105/212057697-c2ede419-7a40-438c-8878-7c93edd4a186.jpg)
 
@@ -38,7 +38,8 @@ Kast is een optioneel objecttype en kan zonder verdere waarde van type Kast afge
 ## **2. Hoe baken ik een fietsstraat af in BGT?**
 
 BGT hanteert als uitgangspunt: dat wat je ziet baken je af. Een wegdeel aangegeven met verkeersbord 'Fietsstraat, auto te gast' (L51b) is eigenlijk voor de BGT niets anders dan twee fietsstroken met een al dan niet verhoogd middenstuk bedoeld voor lokaal verkeer. 
-Advies: De aanbeveling is dus om de fietsstroken als Wegdeel met functie 'fietspad' en de middenstrook als Wegdeel met functie 'lokale weg' af te bakenen.
+
+Advies: De aanbeveling is om de fietsstroken als Wegdeel met FunctieWeg is 'fietspad' en de middenstrook als Wegdeel met FunctieWeg is 'lokale weg' af te bakenen.
 Voorbeelden
 
 ![foto fietsstraat](https://user-images.githubusercontent.com/62252105/212058055-35e5bc9e-3348-4818-bd70-5bfa0497d7f1.jpg)
@@ -53,11 +54,11 @@ en
 ## **3. Hoe baken ik strandpaviljoens met terras/vlonder af in de BGT?**
 
 Of een strandpaviljoen wordt afgebakend als Pand in de BGT, is afhankelijk van de regels voor de BAG. 
-Het is verplicht om een strandpaviljoen dat is opgenomen in de BAG als een BAG pand, op te nemen als BGT Pand in de BGT.
-En het is optioneel om een strandpaviljoen dat _niet_ is opgenomen in de BAG, optioneel op te nemen als OverigBouwwerk zonder nadere classificatie (in IMGeo).
-Daarbij is de relatieve hoogte van het Pand of OverigBouwwerk = 1 in de BGT of IMGeo, omdat het meestal op palen rust.
+Als het strandpaviljoen in de BAG als een BAG pand is afgebakend, dan is het verplicht om dat strandpaviljoen op te nemen als BGT Pand in de BGT.
+En het is optioneel om een strandpaviljoen dat _niet_ is opgenomen in de BAG, optioneel op te nemen met TypeOverigBouwwerk zonder nadere classificatie (in IMGeo), die is dan \<leeg\>.
+Daarbij is de relatieve hoogte van het Pand of OverigBouwwerk = 1 in de BGT of IMGeo, in het geval dat paviljoen op palen rust.
 
-Het omliggende terras/vlonder maakt _geen_ onderdeel uit van de geometrie van het Pand of OverigBouwwerk. De aanbeveling is om het terras/vlonder als OnbegroeidTerreindeel met fysiekvoorkomen 'open verharding' op relatieve hoogte 1 op te nemen in IMGeo. Het strand loopt er als Onbegroeidterreindeel 'strand' onder door op relatieve hoogte 0.
+Het omliggende terras/vlonder maakt _geen_ onderdeel uit van de geometrie van het Pand of OverigBouwwerk. De aanbeveling is om het terras/vlonder als OnbegroeidTerreindeel op te nemen met FysiekVoorkomenOnbegroeidTerrein is 'open verharding' op relatieve hoogte 1. Het strand ligt op relatieve hoogte is 0 en loopt er als Onbegroeidterreindeel met FysiekVoorkomenOnbegroeidTerrein is 'zand' én FysiekVoorkomenOnbegroeidTerreinPlus is 'strand en strandwal' onder door.
 
 Voorbeeld
 
@@ -66,9 +67,9 @@ Voorbeeld
 
 ## **4. Hoe baken ik houten fiets- of voetbruggetjes af in de BGT?**
 
-Hout komt in de BGT of IMGGeo als FysiekVoorkomen niet voor. Toch wil je houten fiets- en/of voetbruggetjes afbakenen. Je bakent de brug af en daarop leg je een fiets/voetpad van "hout".
+Hout komt in de BGT of IMGGeo als FysiekVoorkomen niet voor. Toch wil je houten fiets- en/of voetbruggetjes afbakenen. Je bakent de brug af en daarop leg je een fietspad of voetpad van "hout".
 
-Het advies is om de brug op te nemen als Overbruggingsdeel met HoortBijTypeOverbrugging is 'brug' en met TypeOverbruggingsdeel is 'dek', op een relatieve hoogte groter dan 0. Op dezelfde relatieve hoogte als 'dek', wordt het voet- of fietspad opgenomen in de BGT als een Wegdeel met Functie is fiets- of voetpad en FysiekVoorkomen is 'open verharding' (zonder nadere classificatie). In de beheeromgeving kan de open verharding nadere gedetailleerd worden tot 'Hout'
+Het advies is om de brug op te nemen als Overbruggingsdeel met HoortBijTypeOverbrugging is 'brug' en met TypeOverbruggingsdeel is 'dek', op een relatieve hoogte groter dan 0. Op dezelfde relatieve hoogte als het dek, wordt het voet- of fietspad opgenomen in de BGT als een Wegdeel met FunctieWeg is 'fietspad' of 'voetpad' en FysiekVoorkomenWeg is 'open verharding' (zonder nadere classificatie). In de beheeromgeving (BOR) kan de open verharding nader gedetailleerd worden tot 'Hout'
 
 voorbeeld
 
@@ -79,7 +80,7 @@ voorbeeld
 
 IMGeo heeft geen eigen classificatie voor een oplaadpaal. 
 
-De aanbeveling is om een oplaadpaal als objecttype Paal zonder nadere classificatie op te nemen. In de beheerapplicatie kan een nadere detaillering van de Paal gegeven worden.
+De aanbeveling is om een oplaadpaal op te nemen als Paal met als TypePaal is \<leeg\>, d.w.z. zonder nadere classificatie. In de beheerapplicatie (BOR) kan een nadere detaillering van de TypePaal gegeven worden.
 
 Voorbeeld
 
@@ -90,8 +91,8 @@ Voorbeeld
 
 De BGT kent geen specifiek objecttype 'Haagvak'.
 
-Het advies is om een haag op te nemen en eronder een "haagvak" te leggen. 
-Dit doe je door de haag op te nemen als een optioneel objecttype Vegetatieobject (lijn of vlak), van het type Haag. Het haagvlak wordt afgebakend door het opnemen van een verplicht object BegroeidTerreindeel, van het type Groenvoorziening. In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'haagvak') aan worden toegevoegd.
+Het advies is om een haag op te nemen op een inrichtende laag en eronder een "haagvak" te leggen. 
+Dit doe je door de haag op te nemen als een optioneel Vegetatieobject (lijn of vlak), met TypeVegetatieObjectPlus is 'Haag'. Het haagvlak wordt afgebakend door het opnemen van een BegroeidTerreindeel, met als FysiekVoorkomenBegroeidTerrein is 'Groenvoorziening', zonder nadere detaillering. In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'haagvak') aan worden toegevoegd.
 
 Voorbeeld
 
@@ -101,9 +102,9 @@ Voorbeeld
 ## **7. Hoe baken ik VRI's en portalen met verkeerslichten af in ImGeo?**
 Er ontbreekt een imgeo classificatie voor verkeerslicht of VRI. Je kan het beste zo dicht mogelijk bij de werkelijkheid proberen te komen.
 
-Advies is om de paal op te nemen als Imgeo objecttype Paal, van het Type Verkeersregelinstallatiepaal, op rh = 0.
+Advies is om de paal op te nemen als Paal, met als TypePaal is 'Verkeersregelinstallatiepaal', op rh = 0.
 
-Voor het verkeerslicht zelf is het advies om hiervoor op te nemen een objecttype Installatie, zonder nadere classificatie en deze op rh = 1 te lokaliseren.
+Voor het verkeerslicht zelf is het advies om dit op te nemen als een Installatie, met als TypePaal is \<leeg\>, d.w.z. zonder nadere classificatie en deze op rh = 1 te lokaliseren.
 In de beheerapplicatie kun je in detail aangeven om welke installatie het gaat.
 
 Voorbeeld
@@ -128,7 +129,7 @@ De nummers 17 en 143 zijn nevenadressen.
 ## **9. Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
 In de gegevenscatalogi (BGT en Imgeo) zijn geen classificatie opgenomen om een terrein te benoemen als zonneakker. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden.
 
-Het advies is om het terrein af te bakenen als een IMGeo objecttype FunctioneelGebied, zonder verdere classificatie. Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden, door het opvoeren van het IMGeo objecttype Installatie van het type Zonnepaneel. Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
+Het advies is om het terrein af te bakenen als een IMGeo object FunctioneelGebied, met als TypeFunctioneelGebiedPlus is \<leeg\>, d.w.z. zonder verdere classificatie. Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden, door het opvoeren van een aantal objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
 In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'zonneakker') aan worden toegevoegd.
 
 Voorbeeld
@@ -138,8 +139,8 @@ Voorbeeld
 
 ## **10. Hoe baken ik een galerij en bijbehorende trap af van een flat?**
 Een gallerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt. 
-Het advies is om de galerij op te nemen als een objecttype GebouwInstallatie zonder nadere classificatie, op rh > 0.
-De toeganstrap wordt opgenomen als een objecttype GebouwInstallatie van het type Toegangstrap.
+Het advies is om de galerij op te nemen als een GebouwInstallatie met TypeGebouwInstallatiePlus is \<leeg\>, d.w.z. zonder nadere classificatie, op rh > 0.
+De toeganstrap wordt opgenomen als een GebouwInstallatie met als TypeGebouwInstallatiePlus is 'Toegangstrap'.
 
 Voorbeeld
 
@@ -152,12 +153,14 @@ In dit voorbeeld zijn er 2 galerijen (objecttype GebouwInstallatie-zonder classi
 
 ## **11. Wat is het verschil tussen een OnbegroeidTerreindeel met fysiekvoorkomen 'zand' en 'onverhard - zand'?**
 Het bgt-fysiekvoorkomen 'zand' bij OnbegroeidTerreindeel is bedoeld als zandvlakte, waarmee je dus een strand, strandwallen, en duinen kunt afbakenen.
+Het advies is om een strand op te nemen als OnbegroeidTerreindeel met als FysiekVoorkomenOnbegroeidTerrein is 'zand'. En dit verder te detailleren door FysiekVoorkomenOnbegroeidTerreinPlus is 'strand en strandwal' op te nemen. 
 
 Voorbeeld
 
 ![strand](https://user-images.githubusercontent.com/62252105/216337841-8bbb752d-1c46-47bf-82c2-dd32844c65b6.jpg)
 
 Het OnbegroeidTerreindeel met FysiekVoorkomen Onverhard- en IMgeo de toevoeging Zand, wordt toegepast voor een braakliggende terrein.
+Dit terrein wordt opgenomen als OnbegroeidTerreindeel met als FysiekVoorkomenOnbegroeidTerrein is 'onverhard' en FysiekVoorkomenOnbegroeidTerreinPlus is 'zand'.
 
 Voorbeeld
 
