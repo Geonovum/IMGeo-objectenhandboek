@@ -127,18 +127,38 @@ De nummers 17 en 143 zijn nevenadressen.
 
 
 ## **9. Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
-In de gegevenscatalogi (BGT en Imgeo) zijn geen classificatie opgenomen om een terrein te benoemen als zonneakker. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden.
+In de gegevenscatalogi (BGT en Imgeo) is geen classificatie opgenomen voor een terrein waar zonnepanlen op staan. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden. 
 
-Het advies is om het terrein af te bakenen als een IMGeo object FunctioneelGebied, met als TypeFunctioneelGebiedPlus is \<leeg\>, d.w.z. zonder verdere classificatie. Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden, door het opvoeren van een aantal objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
-In de beheeromgeving kan hier een nadere classificatie (bijvoorbeeld 'zonneakker') aan worden toegevoegd.
+Het advies is om het terrein af te bakenen als een IMGeo object FunctioneelGebied, met als TypeFunctioneelGebiedPlus is \<leeg\>, d.w.z. zonder verdere classificatie, met rh = 0. 
+Het terrein onder de panelen conform BGT karteren als BegroeidTerreindeel met FysiekVoorkomen is Grasland overig.
+Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden door het opvoeren van een aantal (of zoveel als nodig is) objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonneakker') worden toegevoegd.
+Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
 
 Voorbeeld
 
 ![zonneakker](https://user-images.githubusercontent.com/62252105/214539234-29b7a5ae-a39b-4d27-a2ca-9203bcb31023.jpg)
 
+Voor een zonnepark op het water, zonne eiland, is het advies vergelijkbaar.
+Het advies is om op het water een IMGeo object FunctioneelGebied af te bakenen, met als TypeFunctioneelGebiedPlus is \<leeg\>, d.w.z. zonder verdere classificatie, op rh = 0. 
+Het water onder de panelen conform BGT karteren als Waterdeel, met TypeWater is Watervlakte.
+Daarnaast kan bv op de hoekpunten van het gebied een zonnepaneel opgevoerd worden, door het opvoeren van een aantal (of zoveel als nodig is) objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonne eiland') worden toegevoegd.
+
+Voorbeeld
+
+![zonne eiland](https://user-images.githubusercontent.com/62252105/219351523-cb7351a8-9a10-4fae-8108-fe02a70f145b.jpg)
+
+
+Zonnepanelen op een (dak van een) Pand, een OverigBouwwerk of overkapping worden als volgt afgebakend.
+Het advies is om bovenop het pand, overig bouwwerk of overkapping een apart FunctioneelGebied af te bakenen met als TypeFunctioneelGebiedPlus is \<leeg\> en rh = 1.
+Daarnaast kan bv op de hoekpunten van het gebied, een zonnepaneel opgevoerd worden door het opvoeren van een aantal (of zoveel als nodig is) objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel' op rh = 1. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonne dak') worden toegevoegd.
+
+Voorbeeld
+
+![zonnepaneel op dak](https://user-images.githubusercontent.com/62252105/219349104-b4b52926-8050-4e07-83d9-5025889460a7.jpg)
+
 
 ## **10. Hoe baken ik een galerij en bijbehorende trap af van een flat?**
-Een gallerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt. 
+Een galerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt. 
 Het advies is om de galerij op te nemen als een GebouwInstallatie met TypeGebouwInstallatiePlus is \<leeg\>, d.w.z. zonder nadere classificatie, op rh > 0.
 De toeganstrap wordt opgenomen als een GebouwInstallatie met als TypeGebouwInstallatiePlus is 'Toegangstrap'.
 
