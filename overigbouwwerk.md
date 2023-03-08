@@ -3,52 +3,41 @@ permalink: /overigbouwwerk
 sort: 11
 ---
 
-Overig bouwwerk
-==============
+# Overig bouwwerk
 
 **Definitie**
 
-Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van
-een pand of kunstwerk.
+Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk.
 
-inwinningsregels
-----------------
+## inwinningsregels
 
 ### BGT
 
-Bron: [Gegevenscatalogus BGT
-1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-overigbouwwerk)
+Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-overigbouwwerk)
 
 >   **Regels voor opname**
->  
->   De geometrie is waar het grondvlak van het overig bouwwerk de ondergrond
->   raakt.
->  
+
+>   De geometrie is waar het grondvlak van het overig bouwwerk de ondergrond raakt.
+
 >   **Aandachtspunten**
->  
->   Bassins en bezinkbakken bij zuiveringsinstallaties zijn geen waterdelen,
->   maar worden geclassificeerd als overig bouwwerk.
->  
+
+>   Bassins en bezinkbakken bij zuiveringsinstallaties zijn geen waterdelen, maar worden geclassificeerd als overig bouwwerk.
+
 >   Zwembaden worden als type bassin vastgelegd.
->  
+
 >   Alleen bovengrondse opslagtanks worden opgenomen.
->  
->   Bij overkappingen wordt de grondvlakgeometrie van de pilaren (footprint)
->   waarop de overkapping rust geregistreerd wanneer de afmetingen
->   (rechthoekzijde of middellijn) ≥ 0,30 m bedraagt.
->  
+
+>   Bij overkappingen wordt de grondvlakgeometrie van de pilaren (footprint) waarop de overkapping rust geregistreerd wanneer de afmetingen (rechthoekzijde of middellijn) ≥ 0,30 m bedraagt.
+
 >   Het afdak van de overkapping is eventueel IMGeo inhoud.
 
 ### IMGeo
 
-Bron: [Gegevenscatalogus IMGeo
-2.2](https://docs.geostandaarden.nl/imgeo/catalogus/imgeo/#overig-bouwwerk)
+Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalogus/imgeo/#overig-bouwwerk)
 
->   Bunkers, voedersilo’s en schuren zijn geen BGT inhoud, maar kunnen wel in
->   IMGeo als overig bouwwerk worden opgenomen.
+>   Bunkers, voedersilo’s en schuren zijn geen BGT inhoud, maar kunnen wel in IMGeo als overig bouwwerk worden opgenomen.
 
-type
-----
+## type
 
 **Definitie**
 
@@ -68,21 +57,18 @@ Ja, verplichte inhoud BGT.
 
 ![](media/1fce0e97aa72f794b660051e0ad21c84.jpg)
 
-Uitsluitend de maaiveldgeometrie van de pilaren vormt als multivlak de
-BGT-inhoud van de overkapping, eventueel vormt de dakrand van het afdak inhoud
-voor IMGeo op niveau +1.
+Uitsluitend de maaiveldgeometrie van de pilaren vormt als multivlak de BGT-inhoud van de overkapping, eventueel vormt de dakrand van het afdak inhoud voor IMGeo op niveau +1.
 
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | overkapping         |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 ### open loods
 
 **Definitie**
 
-Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of
-werkplaats of als tijdelijk onderdak voor andere doeleinden.
+Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden.
 
 **Verplicht?**
 
@@ -97,10 +83,9 @@ A:
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | open loods          |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
-Ten behoeve van de vlakvormige objectvorming is de open zijde van de loods
-gesloten.
+Ten behoeve van de vlakvormige objectvorming is de open zijde van de loods gesloten.
 
 ### opslagtank
 
@@ -114,6 +99,10 @@ Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
+![thumbnail_mestopslag boerderij](media/a95e8deeff5847def95c8f40e805632f.png)
+
+![thumbnail_opslagtanks bij melkfabriek](media/db7fd8ff54b3cc37c8711623591102b3.png)
+
 ![](media/ced94b4d35d6fb0888f068da80c4fc65.jpg)
 
 C en E:
@@ -121,7 +110,7 @@ C en E:
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | Opslagtank          |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 A: wegdeel, rijbaan: lokale weg.
 
@@ -131,8 +120,7 @@ B en D: onbegroeidterreindeel, erf.
 
 **Definitie**
 
-Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een
-slibreinigende voorziening.
+Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening.
 
 **Verplicht?**
 
@@ -147,7 +135,7 @@ A:
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | bezinkbak           |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 B: onbegroeidterreindeel, onverhard.
 
@@ -170,7 +158,7 @@ Uitsluitend de maaiveldgeometrie van de windmolenmast vormt BGT-inhoud.
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | windturbine         |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 ### lage trafo
 
@@ -191,7 +179,7 @@ A:
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | lage trafo          |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 ### bassin
 
@@ -214,14 +202,13 @@ Ja, verplichte inhoud BGT.
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | type                   | bassin              |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 ### schuur
 
 **Definitie**
 
-Een vrijstaand, al of niet prefab, niet-vergunningsplichtig bouwwerk dat
-gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen.
+Een vrijstaand, al of niet prefab, niet-vergunningsplichtig bouwwerk dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen.
 
 **Verplicht?**
 
@@ -229,8 +216,7 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-Een afbeelding van een schuur kunt u sturen
-aan: [imgeo\@geonovum.nl](mailto:info@geonovum.nl)
+Een afbeelding van een schuur kunt u sturen aan: [imgeo@geonovum.nl](mailto:info@geonovum.nl)
 
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
@@ -241,8 +227,7 @@ aan: [imgeo\@geonovum.nl](mailto:info@geonovum.nl)
 
 **Definitie**
 
-Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate
-van bescherming biedt tegen beschietingen en bombardementen.
+Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen.
 
 **Verplicht?**
 
@@ -261,8 +246,7 @@ Nee, optionele inhoud IMGeo.
 
 **Definitie**
 
-Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een
-opening aan de onderkant.
+Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een opening aan de onderkant.
 
 **Verplicht?**
 
@@ -270,8 +254,7 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-Een afbeelding van een voedersilo kunt u sturen
-aan: [imgeo\@geonovum.nl](mailto:info@geonovum.nl)
+Een afbeelding van een voedersilo kunt u sturen aan: [imgeo@geonovum.nl](mailto:info@geonovum.nl)
 
 | **OverigBouwwerk**     | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
