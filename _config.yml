@@ -45,6 +45,8 @@ script: |
   
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
+  
+   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten &times;</small></a><iframe class="printFrame" src="https://md2pdf.gewoongoedegeodata.nl/" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
 
   
 scss: |
@@ -74,3 +76,7 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;} 
+  
+  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:500px;box-shadow: 3px 3px- #eee;margin-top:-250px;
+  background:#fff;border: solid 1px grey;text-align:right;z-index:500;border-radius:5px;box-shadow: 0 1px 2px 0;padding: 5px;}
+  .printFrame { margin:0;border: none; width:100%;height:100%}
