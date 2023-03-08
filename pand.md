@@ -341,3 +341,9 @@ Dit is geen BAG en geen BGT-inhoud. Eventueel wordt dit in IMGeo geclassificeerd
 ![](media/2e767f5bed2284f224e3986fce6a1247.jpg)
 
 Deze foto’s tonen gazen bakken met steenbrokken, zoals in bergachtige streken wordt toegepast als versteviging van bergwanden en lawinekering, hier in gebruik als alternatief voor betonwanden. Voor de BGT is dit inhoud wanneer de muur een scheiding tussen twee objecten vormt.
+
+#### Woonwagen en woonboot
+
+Standplaatsen en ligplaatsen vormen geen inhoud van de BGT.
+
+Een woonwagen of woonboot op respectievelijk een standplaats of ligplaats kan in IMGeo worden opgenomen als OverigBouwwerk zonder nadere IMGeo classificatie.
