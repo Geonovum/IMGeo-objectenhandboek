@@ -82,3 +82,5 @@ scss: |
   .printFrame { margin:0;border: none; width:100%;height:100%}
   
   .edit{visibility:hidden}
+  
+  body{scroll-padding:400px};
