@@ -7,8 +7,7 @@ sort: 4
 
 **Definitie**
 
-De as van het spoor, dat wil zeggen het midden van twee stalen staven op een
-onderling vaste afstand, waarover trein, tram, of sneltram rijdt.
+De as van het spoor, dat wil zeggen het midden van twee stalen staven op een onderling vaste afstand, waarover trein, tram, of sneltram rijdt.
 
 ## inwinningsregels
 
@@ -17,10 +16,9 @@ onderling vaste afstand, waarover trein, tram, of sneltram rijdt.
 Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-spoor)
 
 >   **Regels voor opname**
->   
->   Het midden tussen de twee staven van een spoor, de as van het spoor, wordt
->   als lijn vastgelegd.
->   
+
+>   Het midden tussen de twee staven van een spoor, de as van het spoor, wordt als lijn vastgelegd.
+
 >   De as van elk afzonderlijk spoor wordt weergegeven.
 
 ## functie
@@ -33,9 +31,7 @@ Specificatie van het soort gebruik van het spoor.
 
 **Definitie**
 
-Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per
-uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen
-en/of wagons.
+Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen en/of wagons.
 
 **Verplicht?**
 
@@ -50,7 +46,7 @@ C (verschillende objecten):
 | **Spoor**              | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | functie                | trein               |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 A: Wegdeel, Overweg.
 
@@ -75,10 +71,9 @@ A en B (gescheiden objecten):
 | **Spoor**              | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | functie                | sneltram            |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
-Een (spoorbaan voor de) metro beschouwt de BGT als een verbijzondering van een
-(spoorbaan voor) sneltram.
+Een (spoorbaan voor de) metro beschouwt de BGT als een verbijzondering van een (spoorbaan voor) sneltram.
 
 ### tram
 
@@ -99,7 +94,7 @@ A en B (gescheiden objecten):
 | **Spoor**              | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | functie                | Tram                |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
 
 ### (haven)kraan
 
@@ -113,10 +108,11 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-Een afbeelding van een spoor havenkraan kunt u sturen
-aan: [imgeo\@geonovum.nl](mailto:info@geonovum.nl)
+![Silo_met_kraanbaan__De_Hef__-Beneden-Leeuwen-20388988-_RCE 1 \_cleanup](media/880d063e4e49cd24d996e1623308d48c.jpeg)
+
+![havenkraan](media/3f8b42dc7635ab53d02e448946a2a232.jpeg)
 
 | **Spoor**              | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
 | functie                | Havenkraan          |                 |
-| relatieveHoogteligging |  0                  |                 |
+| relatieveHoogteligging |  0                  |                 |
