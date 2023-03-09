@@ -3,7 +3,7 @@ permalink: /spoor
 sort: 4
 ---
 
-# Spoor
+# Spoor (SPR)
 
 **Definitie**
 
