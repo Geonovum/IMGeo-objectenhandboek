@@ -3,7 +3,7 @@ permalink: /kunstwerkdeel
 sort: 14
 ---
 
-Kunstwerkdeel
+Kunstwerkdeel (KWD)
 =============
 
 **Definitie**
