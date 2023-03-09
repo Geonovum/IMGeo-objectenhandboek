@@ -452,9 +452,7 @@ Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
-![P1060135](media/dd25966ef8e721825aebb543e45e6478.jpg)
-
-P1060135
+![](media/dd25966ef8e721825aebb543e45e6478.jpg)
 
 B:
 
