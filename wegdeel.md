@@ -3,7 +3,7 @@ permalink: /wegdeel
 sort: 2
 ---
 
-# Wegdeel
+# Wegdeel (WGD)
 
 **Definitie**
 
