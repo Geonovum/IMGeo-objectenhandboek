@@ -190,9 +190,8 @@ A: wegdeel, spoorbaan.
 
 B: spoor, trein.
 
-![DSCN2122](media/45c8855503929f2a34e4f81e65854319.jpg)
+![](media/45c8855503929f2a34e4f81e65854319.jpg)
 
-DSCN2122
 
 Dit is geen perron.
 
@@ -271,9 +270,8 @@ Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
-![DSC01139](media/e4422ed38eeae05703cceea8dd7b557e.jpg)
+![](media/e4422ed38eeae05703cceea8dd7b557e.jpg)
 
-DSC01139
 
 B:
 
@@ -282,9 +280,8 @@ B:
 | type                   | steiger             |                 |
 | relatieveHoogteligging | 1                   |                 |
 
-![jd19](media/8435ac1d299e02d84261504ed5ee6471.jpg)
+![](media/8435ac1d299e02d84261504ed5ee6471.jpg)
 
-jd19
 
 Drijvende steigers zijn geen BGT inhoud.
 
