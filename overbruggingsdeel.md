@@ -182,9 +182,8 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![DSC01153](media/18bc64498e49b9b8a1dfcb899e358343.jpg)
+![](media/18bc64498e49b9b8a1dfcb899e358343.jpg)
 
-DSC01153
 
 B:
 
@@ -356,9 +355,8 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![DSC01153](media/a5af07c32c9eabc0abb09df6e21a9e89.jpg)
+![](media/a5af07c32c9eabc0abb09df6e21a9e89.jpg)
 
-DSC01153
 
 A:
 
