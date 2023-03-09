@@ -115,11 +115,8 @@ B: pand
 
 C: onbegroeid terreindeel, erf.
 
-![2325b](media/511d5264a64bfefc0c0e2ba05b00420d.jpg)
+![](media/511d5264a64bfefc0c0e2ba05b00420d.jpg)
 
-2325b
-
-2325b
 
 C en D zijn BGT-inhoud want de hoogte van de muur \> 0,5 m. Het zijn
 afzonderlijke objecten omdat de onderbreking bij A \> 1 m.
@@ -283,13 +280,8 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![scheiding draadrsater](media/a3b819232c328ea7b59377d0bbd9250d.jpg)
+![scheiding draadraster](media/a3b819232c328ea7b59377d0bbd9250d.jpg)
 
-scheiding draadrsater
-
-scheiding draadrsater
-
-HTML niet gevonden:: example/html/scheiding-draadraster.html
 
 ### faunaraster
 
@@ -306,6 +298,3 @@ Nee, optionele inhoud IMGeo.
 
 ![scheiding faunaraster](media/7ea2f71fdd730440a5f049aea19c54ea.jpg)
 
-scheiding faunaraster
-
-scheiding faunaraster
