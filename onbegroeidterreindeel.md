@@ -3,7 +3,7 @@ permalink: /onbegroeidterreindeel
 sort: 5
 ---
 
-Onbegroeid terreindeel
+Onbegroeid terreindeel (OTD)
 =====================
 
 **Definitie**
