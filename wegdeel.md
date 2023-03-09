@@ -1194,7 +1194,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![](media/df463d83012a2a1d46bada3755ab33c3.jpg)
+![grindpad](https://user-images.githubusercontent.com/62252105/224078736-d929fa77-ea7f-434e-a798-1c2c0eec48ae.jpg)
+
+
 
 | **Wegdeel**            | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
