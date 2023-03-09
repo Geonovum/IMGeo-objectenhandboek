@@ -3,7 +3,7 @@ permalink: /waterdeel
 sort: 7
 ---
 
-Waterdeel
+Waterdeel (WTD)
 =========
 
 **Definitie**
