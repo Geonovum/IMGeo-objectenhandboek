@@ -184,7 +184,8 @@ Voorbeeld
 
 
 ## **10. Hoe baken ik een galerij en bijbehorende trap af van een flat?**
-Een galerij maakt onderdeel uit van een BAG pand. Bij een BGT pand wordt de galerij juist niet meegenomen, omdat deze niet op rh=0 ligt. 
+Als een galerij géén onderdeel uitmaakt van een BAG pand (zie regels voor BAG), dan wordt die in de BGT opgenomen als volgt.
+
 Het advies is om de galerij op te nemen als een GebouwInstallatie met TypeGebouwInstallatiePlus is \<leeg\>, d.w.z. zonder nadere classificatie, op rh > 0.
 De toegangstrap wordt opgenomen als een GebouwInstallatie met als TypeGebouwInstallatiePlus is 'Toegangstrap'.
 
