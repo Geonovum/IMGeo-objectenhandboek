@@ -3,7 +3,7 @@ permalink: /wijk
 sort: 37
 ---
 
-Wijk
+Wijk (WYK)
 ====
 
 **Definitie**
