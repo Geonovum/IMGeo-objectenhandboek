@@ -3,7 +3,7 @@ title: Buurt
 sort: 33
 ---
 
-Buurt
+Buurt (BRT)
 =====
 
 **Definitie**
