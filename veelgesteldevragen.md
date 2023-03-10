@@ -37,7 +37,9 @@ Het advies is om de pakketautomaat als een Kast op te nemen met als TypeKastPlus
 
 ## **2. Hoe baken ik een fietsstraat af in BGT?**
 
-BGT hanteert als uitgangspunt: dat wat je ziet baken je af. Een wegdeel aangegeven met verkeersbord 'Fietsstraat, auto te gast' (L51b) is eigenlijk voor de BGT niets anders dan twee fietsstroken met een al dan niet verhoogd middenstuk bedoeld voor lokaal verkeer. 
+BGT hanteert als uitgangspunt: dat wat je ziet, baken je af. Een wegdeel aangegeven met verkeersbord 'Fietsstraat, auto te gast' (L51b) is in principe een gewone 30 km/u weg, alleen zijn fietsers hier dominant aanwezig, dus dienen automobilisten meer rekening te houden met fietsers. Maar er gelden geen speciale verkeersregels op een fietsstraat. Bij de BGT gaat het om de fysieke kenmerken. 
+
+Fietsstraat met middenstuk: in dit geval is er niets anders dan twee oranje fietsstroken met een, al dan niet verhoogd, middenstuk, bedoeld voor lokaal verkeer. 
 
 Advies: De aanbeveling is om de fietsstroken als Wegdeel met FunctieWeg is 'fietspad' en de middenstrook als Wegdeel met FunctieWeg is 'lokale weg' af te bakenen.
 Voorbeelden
@@ -46,8 +48,31 @@ Voorbeelden
 
 en 
 
+
 ![](https://user-images.githubusercontent.com/62252105/208676334-d9244e86-9314-41f0-9e56-d6ed13a0c67c.png)
 
+
+Fietsstraat zonder middenstuk: Het komt ook voor dat in de fietsstraat geen middenstuk is opgenomen en dat de stroken geen oranje kleur hebben. In dat geval is het minder duidelijk dat er sprake is van een fietspad waar auto's te gast zijn. 
+
+Het advies is om het wegdeel te benoemen volgens hetgene wat je het beste ziet. 
+
+Zie je voornamelijk een grijze weg, waar een fietsstraat bord aan toegevoegd is. dan baken je dit deel van de weg af als een lokale weg.
+
+Voorbeeld
+
+![](https://user-images.githubusercontent.com/62252105/224316251-5c5c8ead-b5f1-47a6-807e-b3374c631070.jpg)
+
+
+
+Of zie je een oranje fietspad, waar auto's over mogen rijden. In dat geval baken je dit deel van de weg af als een fietspad.
+
+Voorbeeld
+
+![](https://user-images.githubusercontent.com/62252105/224309167-dc81d5fc-2087-48c4-800f-9ae73c92fd6d.png)
+
+
+
+Bij twijfel of als beide mogelijkheden zouden kunnen, dan geldt altijd de hierarchie regel: het objecttype dat hoger in de hierarchie staat (volgens de inhoudsopgave van het objectenhandboek) heeft dan de voorkeur boven het objecttype dat lager staat. 'Lokale weg' staat hoger dan 'fietspad'.
 
 
 
@@ -127,11 +152,11 @@ De nummers 17 en 143 zijn nevenadressen.
 
 
 ## **9. Hoe baken ik een terrein af met zonnepanelen (zonneakker) in de BGT?**
-In de gegevenscatalogi (BGT en Imgeo) is geen classificatie opgenomen voor een terrein waar zonnepanlen op staan. Wel is er de mogelijkheid om een los zonnepaneel op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden. 
+In de gegevenscatalogi (BGT en Imgeo) is geen classificatie opgenomen voor een terrein waar zonnepanelen op staan. Wel is er de mogelijkheid om een los zonnepaneel als een puntobject op te nemen. In het kader van de energietransitie is het gewenst om deze terreinen met zonnepanelen te onderscheiden. 
 
 Het advies is om het terrein af te bakenen als een IMGeo object FunctioneelGebied, met als TypeFunctioneelGebiedPlus is \<leeg\>, d.w.z. zonder verdere classificatie, met rh = 0. 
 Het terrein onder de panelen conform BGT karteren als BegroeidTerreindeel met FysiekVoorkomen is Grasland overig.
-Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden door het opvoeren van een aantal (of zoveel als nodig is) objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonneakker') worden toegevoegd.
+Daarnaast kan bv op de hoekpunten van het terrein een zonnepaneel opgevoerd worden door het opvoeren van een aantal (of zoveel als nodig is) puntobjecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel'. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonneakker') worden toegevoegd.
 Door deze combinatie, functioneel gebied en zonnepaneel, kan een gebruiker van de BGT een zonneakker opzoeken.
 
 Voorbeeld
@@ -151,6 +176,8 @@ Voorbeeld
 Zonnepanelen op een (dak van een) Pand, een OverigBouwwerk of overkapping worden als volgt afgebakend.
 Het advies is om bovenop het pand, overig bouwwerk of overkapping een apart FunctioneelGebied af te bakenen met als TypeFunctioneelGebiedPlus is \<leeg\> en rh = 1.
 Daarnaast kan bv op de hoekpunten van het gebied, een zonnepaneel opgevoerd worden door het opvoeren van een aantal (of zoveel als nodig is) objecten Installatie met als TypeInstallatiePlus is 'Zonnepaneel' op rh = 1. In de beheeromgeving kan aan het functionele gebied een nadere classificatie (bijvoorbeeld 'zonne dak') worden toegevoegd.
+
+Op deze manier worden lokaties met zonnepanelen consistent en op eenzelfde manier afgebakend en kunnen ze met een analyse eenvoudig teruggevonden worden.
 
 Voorbeeld
 
