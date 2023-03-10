@@ -3,7 +3,7 @@ permalink: /vegetatieobject
 sort: 30
 ---
 
-VegetatieObject
+VegetatieObject (VGO)
 ===============
 
 **Definitie**
