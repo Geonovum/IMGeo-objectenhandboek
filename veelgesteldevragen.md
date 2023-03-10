@@ -72,8 +72,7 @@ Voorbeeld
 
 
 
-Bij twijfel of als beide mogelijkheden zouden kunnen, dan geldt altijd de hierarchie regel: het objecttype dat hoger in de hierarchie staat (volgens de inhoudsopgave van het objectenhandboek) heeft dan de voorkeur boven het objecttype dat lager staat. 'Lokale weg' staat hoger dan 'fietspad'.
-
+Bij twijfel of als beide mogelijkheden zouden kunnen, dan geldt altijd de hierarchie regel: de domeinwaarde die eerder in de lijst voorkomt, prevaleert boven de opvolgende domeinwaarden (volgens de inhoudsopgave van het objectenhandboek). 'Lokale weg' staat hoger dan 'fietspad' en heeft dan de voorkeur. 
 
 
 ## **3. Hoe baken ik strandpaviljoens met terras/vlonder af in de BGT?**
