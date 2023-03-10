@@ -3,7 +3,7 @@ permalink: /functioneelgebied
 sort: 16
 ---
 
-Functioneel gebied
+Functioneel gebied (FUG)
 ==================
 
 **Definitie**
