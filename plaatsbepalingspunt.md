@@ -3,7 +3,7 @@ permalink: /plaatsbepalingspunt
 sort: 38
 ---
 
-Plaatsbepalingspunt
+Plaatsbepalingspunt (PBP)
 ===================
 
 **Definitie**
