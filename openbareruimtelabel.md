@@ -3,7 +3,7 @@ permalink: /openbareruimtelabel
 sort: 31
 ---
 
-Openbare ruimte label
+Openbare ruimte label (ORL)
 ===================
 
 **Definitie**
