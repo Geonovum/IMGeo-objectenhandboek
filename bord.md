@@ -1,4 +1,5 @@
 ---
+title: Bord
 permalink: /bord
 sort: 20
 ---
