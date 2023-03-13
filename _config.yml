@@ -23,7 +23,7 @@ script: |
   var breadcrumbs = window.location.href.replace(url_prefix, '').split('/');
   breadcrumbs.forEach(addLink);
   function addLink(value, index, array) { array[index] = '<a href="/' + value + '">' + value + '</a>'; };
-  document.getElementsByClassName("breadcrumb-item")[1].innerHTML = breadcrumbs.join(' / ').replace(/.html|.md/g, '');
+  document.getElementsByClassName("breadcrumb-item")[1].innerHTML = breadcrumbs.join(' / ').replace(/.html|.md|#/g, '');
   var toclevel1 = document.getElementsByClassName('level-1');
   for (let tocitem of toclevel1) { tocitem.getElementsByTagName('a')[0].innerHTML = tocitem.getElementsByTagName('a')[0].innerHTML.split('. ')[1];}
   document.getElementsByClassName('input-sm')[0].placeholder = "Zoeken in het objectenhandboek...";  
@@ -45,7 +45,9 @@ script: |
   
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
-
+  
+   document.getElementsByClassName('navigation-top')[0].innerHTML= document.getElementsByClassName('navigation-top')[0].innerHTML + '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>';   
+   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten &times;</small></a><iframe class="printFrame" src="https://md2pdf.gewoongoedegeodata.nl/" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
   
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   
@@ -74,3 +76,11 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;} 
+  
+  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:500px;box-shadow: 3px 3px- #eee;margin-top:-250px;
+  background:#fff;border: solid 1px grey;text-align:right;z-index:500;border-radius:5px;box-shadow: 0 1px 2px 0;padding: 5px;}
+  .printFrame { margin:0;border: none; width:100%;height:100%}
+  
+  .edit{visibility:hidden}
+  
+  body{scroll-padding:400px};

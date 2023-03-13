@@ -4,14 +4,13 @@ sort: 29
 ---
 
 Weginrichtingselement (WGI)
-=====================
+============================
 
 **Definitie**
 
 Een ruimtelijk object dat dient voor de inrichting van de openbare weg.
 
-type
-----
+## type
 
 **Definitie**
 
@@ -21,8 +20,7 @@ Het soort weginrichtingselement.
 
 **Definitie**
 
-Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal
-een cirkelsegment als dwarsprofiel.
+Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel.
 
 **Verplicht?**
 
@@ -32,22 +30,20 @@ Nee, optionele inhoud IMGeo.
 
 ![](media/2e51f1833bf88770c79269ce1acfeaba.jpg)
 
-Voor de BGT is de molgoot geen inhoud en wordt bij wegdeel A gerekend. In IMGeo
-kan de molgoot als weginrichtingselement met lijngeometrie worden opgenomen.
+Voor de BGT is de molgoot geen inhoud en wordt bij wegdeel A gerekend. In IMGeo kan de molgoot als weginrichtingselement met lijngeometrie worden opgenomen.
 
 C:
 
 | **Weginrichtingselement** | **Attribuutwaarde** | **Opmerkingen** |
 |---------------------------|---------------------|-----------------|
-| type                      | molgoot             |  lijn           |
+| type                      | molgoot             |  lijn           |
 | relatieveHoogteligging    |                     |                 |
 
 ### lijnafwatering
 
 **Definitie**
 
-Goot in de lengterichting van de verharding, niet zijnde molgoot. Bijvoorbeeld
-roostergoot en verholen goot.
+Goot in de lengterichting van de verharding, niet zijnde molgoot. Bijvoorbeeld roostergoot en verholen goot.
 
 **Verplicht?**
 
@@ -66,8 +62,7 @@ Nee, optionele inhoud IMGeo.
 
 **Definitie**
 
-Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding,
-waarschuwing, regeling of informatie van het verkeer.
+Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer.
 
 **Verplicht?**
 
@@ -113,7 +108,7 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![](media/924e930a22cce4ecd03882b21c86cfef.jpg)
+![](media/cd08b4539c10deeb2c09a92bdcf1a2a9.jpeg)
 
 | **Weginrichtingselement** | **Attribuutwaarde** | **Opmerkingen** |
 |---------------------------|---------------------|-----------------|
@@ -124,8 +119,7 @@ Nee, optionele inhoud IMGeo.
 
 **Definitie**
 
-Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die
-uit de koers zijn geraakt.
+Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.
 
 **Verplicht?**
 
@@ -148,8 +142,7 @@ A:
 
 **Definitie**
 
-Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een
-balustrade beveiligt tegen het vallen.
+Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een balustrade beveiligt tegen het vallen.
 
 **Verplicht?**
 
@@ -162,14 +155,13 @@ Nee, optionele inhoud IMGeo.
 | **Weginrichtingselement** | **Attribuutwaarde**                    | **Opmerkingen** |
 |---------------------------|----------------------------------------|-----------------|
 | type                      | balustrade                             |                 |
-| relatieveHoogteligging    |  Hetzelfde als object waarop dit staat |                 |
+| relatieveHoogteligging    |  Hetzelfde als object waarop dit staat |                 |
 
 ### boomspiegel
 
 **Definitie**
 
-Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor
-lucht en water.
+Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor lucht en water.
 
 **Verplicht?**
 
@@ -188,8 +180,7 @@ Nee, optionele inhoud IMGeo.
 
 **Definitie**
 
-Constructie bedoeld om verblinding van weggebruikers door tegenlicht te
-voorkomen.
+Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.
 
 **Verplicht?**
 

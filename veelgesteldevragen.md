@@ -9,8 +9,12 @@ Veelgestelde vragen
 Hieronder volgt een overzicht van veelgestelde vragen aan de IMGeo helpdesk over
 de toepassing van inwinregels en classificaties in de BGT\|IMGeo standaarden.
 
-Van de onderstaande objecttypen was niet duidelijk genoeg aangegeven (in de catalogi BGT of IMGeo, of in het objectenhandboek) op welke manier het object het beste afgebakend zou worden. Door deze onduidelijkheid ontstaan in de BGT diverse manieren van afbakening en dat komt de consistentie van de BGT niet ten goede.
+De vragen gaan veelal over situaties waarvoor IMGeo geen classificaties of inwinregels voorschrijft. Via de IMGeo helpdesk wordt een advies gegeven hoe deze situatie het best in IMGeo opgenomen zou kunnen worden. Door het beschikbaar maken van deze adviezen voor iedereen kunnen situaties waarin IMGeo niet eenduidig voorziet, toch op een consistente manier worden opgenomen in IMGeo.
 
+Bij een herziening van het IMGeo worden de veelgestelde vragen geanalyseerd en opgelost in de nieuwe versie van de standaard. Dat kan door het opnemen van inwinregels in de catalogi of het toevoegen van een nieuwe classificatie aan het IMGeo.
+
+
+Van de onderstaande objecttypen was niet duidelijk genoeg aangegeven (in de catalogi BGT of IMGeo, of in het objectenhandboek) op welke manier het object het beste afgebakend zou worden. Door deze onduidelijkheid ontstaan in de BGT diverse manieren van afbakening en dat komt de consistentie van de BGT niet ten goede.
 iedere vraag wordt afgesloten met een advies.
 
 
@@ -212,7 +216,3 @@ Dit terrein wordt opgenomen als OnbegroeidTerreindeel met als FysiekVoorkomenOnb
 Voorbeeld
 
 ![vacant-lot-park-grassland-ecosystem-pasture-land-lot-1442455-pxhere com](https://user-images.githubusercontent.com/62252105/216337206-b191e989-904e-4863-871c-db64761fd193.jpg)
-
-
-
-
