@@ -1,4 +1,5 @@
 ---
+title: Functioneel gebied
 permalink: /functioneelgebied
 sort: 16
 ---
