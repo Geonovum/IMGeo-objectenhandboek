@@ -3,7 +3,7 @@ permalink: /ondersteunendwaterdeel
 sort: 8
 ---
 
-Ondersteunend waterdeel
+Ondersteunend waterdeel (OWT)
 ======================
 
 **Definitie**
@@ -167,13 +167,6 @@ Ja, verplichte inhoud BGT.
 
 ![OndersteunendWaterdeel, oever, slootkant](media/ded9048bc4c1eea1b33b035a47d20cde.jpg)
 
-OndersteunendWaterdeel, oever, slootkant
-
-OndersteunendWaterdeel, oever, slootkant
-
-OndersteunendWaterdeel, oever, slootkant
-
-OndersteunendWaterdeel, oever, slootkant
 
 >   B en E:
 
@@ -200,11 +193,6 @@ Ja, verplichte inhoud BGT.
 
 ![OndersteunendWaterdeel, slik](media/40d9840170b4007a09bdd8c1fd8a5b23.png)
 
-OndersteunendWaterdeel, slik
-
-OndersteunendWaterdeel, slik
-
-OndersteunendWaterdeel, slik
 
 | **OndersteunendWaterdeel** | **Attribuutwaarde** | **Opmerkingen** |
 |----------------------------|---------------------|-----------------|

@@ -3,7 +3,7 @@ permalink: /stadsdeel
 sort: 35
 ---
 
-Stadsdeel
+Stadsdeel (STD)
 =========
 
 **Definitie**

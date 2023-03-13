@@ -3,7 +3,7 @@ permalink: /openbareruimte
 sort: 34
 ---
 
-Openbare ruimte
+Openbare ruimte (OPR)
 ==============
 
 **Definitie**

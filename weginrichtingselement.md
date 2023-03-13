@@ -3,7 +3,8 @@ permalink: /weginrichtingselement
 sort: 29
 ---
 
-# Weginrichtingselement
+Weginrichtingselement (WGI)
+============================
 
 **Definitie**
 

@@ -3,7 +3,7 @@ permalink: /ondersteunendwegdeel
 sort: 3
 ---
 
-# Ondersteunend wegdeel
+# Ondersteunend wegdeel (OWG)
 
 **Definitie**
 
