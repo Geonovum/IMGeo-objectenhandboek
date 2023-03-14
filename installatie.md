@@ -1,4 +1,5 @@
 ---
+titel: INS | Installatie
 permalink: /installatie
 sort: 21
 ---
