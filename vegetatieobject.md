@@ -1,4 +1,5 @@
 ---
+title: VGO | Vegetatieobject
 permalink: /vegetatieobject
 sort: 30
 ---
