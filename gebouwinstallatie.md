@@ -1,4 +1,5 @@
 ---
+title: GBI | Gebouwinstallatie
 permalink: /gebouwinstallatie
 sort: 17
 ---
