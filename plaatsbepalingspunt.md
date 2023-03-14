@@ -1,4 +1,5 @@
 ---
+title: PBP | Plaatsbepalingspunt
 permalink: /plaatsbepalingspunt
 sort: 38
 ---
