@@ -1,4 +1,5 @@
 ---
+title: PUT | Put
 permalink: /put
 sort: 25
 ---
