@@ -1,4 +1,5 @@
 ---
+title: WTI | Waterinrichtingselement
 permalink: /waterinrichtingselement
 sort: 28
 ---
