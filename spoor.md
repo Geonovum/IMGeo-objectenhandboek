@@ -1,4 +1,5 @@
 ---
+title: SPR | Spoor
 permalink: /spoor
 sort: 4
 ---
