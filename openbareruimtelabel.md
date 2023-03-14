@@ -1,4 +1,5 @@
 ---
+title: ORL | Openbare ruimte label
 permalink: /openbareruimtelabel
 sort: 31
 ---
