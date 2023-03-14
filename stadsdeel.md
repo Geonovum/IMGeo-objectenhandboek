@@ -1,4 +1,5 @@
 ---
+title: STD | Stadsdeel
 permalink: /stadsdeel
 sort: 35
 ---
