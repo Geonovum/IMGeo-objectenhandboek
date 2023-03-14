@@ -1,5 +1,6 @@
 ---
 title: Buurt
+permalink: /buurt
 sort: 33
 ---
 
