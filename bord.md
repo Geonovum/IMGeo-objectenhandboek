@@ -1,5 +1,5 @@
 ---
-title: Bord
+title: BRD | Bord
 permalink: /bord
 sort: 20
 ---
