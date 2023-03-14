@@ -1,5 +1,5 @@
 ---
-title: BAK| Bak
+title: BAK | Bak
 permalink: /bak
 sort: 19
 ---
