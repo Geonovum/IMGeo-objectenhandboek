@@ -1,4 +1,5 @@
 ---
+title: OBW | Overig bouwwerk
 permalink: /overigbouwwerk
 sort: 11
 ---
