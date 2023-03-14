@@ -1,4 +1,5 @@
 ---
+title: STM | Straatmeubilair
 permalink: /straatmeubilair
 sort: 27
 ---
