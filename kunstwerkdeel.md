@@ -1,4 +1,5 @@
 ---
+title: KWD | Kunstwerkdeel
 permalink: /kunstwerkdeel
 sort: 14
 ---
