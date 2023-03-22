@@ -1,4 +1,5 @@
 ---
+title: MST | Mast
 permalink: /mast
 sort: 23
 ---

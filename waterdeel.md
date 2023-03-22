@@ -1,4 +1,5 @@
 ---
+title: WTD | Waterdeel
 permalink: /waterdeel
 sort: 7
 ---

@@ -1,4 +1,5 @@
 ---
+title: SNS | Sensor
 permalink: /sensor
 sort: 26
 ---

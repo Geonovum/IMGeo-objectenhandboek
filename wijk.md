@@ -1,4 +1,5 @@
 ---
+title: WYK | Wijk
 permalink: /wijk
 sort: 37
 ---

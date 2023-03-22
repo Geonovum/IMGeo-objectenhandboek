@@ -1,4 +1,5 @@
 ---
+title: PAL | Paal
 permalink: /paal
 sort: 24
 ---

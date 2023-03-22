@@ -1,5 +1,5 @@
 ---
-title: Functioneel gebied
+title: FUG | Functioneel gebied
 permalink: /functioneelgebied
 sort: 16
 ---

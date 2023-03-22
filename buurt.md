@@ -1,5 +1,6 @@
 ---
-title: Buurt
+
+title: BRT | Buurt
 permalink: /buurt
 sort: 33
 ---
