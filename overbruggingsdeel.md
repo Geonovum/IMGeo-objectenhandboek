@@ -146,13 +146,7 @@ beschrijving](media/8ba3ef8afe1f6fa5b5efe647325fa096.jpeg)
 
 Uitwerking C
 
-## 
 
-## 
-
-## 
-
-## 
 
 ## type overbruggingsdeel
 
