@@ -180,7 +180,7 @@ Terrein met als functie het tijdelijk of langdurig bergen van
 
 Nee, optionele inhoud IMGeo.
 
-HTML niet gevonden:: example/html/functioneelgebied-waterbergingsgebied.html
+![](media/waterbergingsgebiedb215b292-4388-4a4f-90f5-e21be2a75581.jpg)
 
 ### maatschappelijke en/of publieksvoorziening
 
