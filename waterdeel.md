@@ -91,7 +91,7 @@ Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalog
 
 >   Van betonning, meerpaal en hoogtemerk wordt de puntgeometrie opgenomen.
 
->   Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf over functioneel gebied voor meer informatie. Functionele gebieden bevatten geen plaatsbepalingspunten.
+>   Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de [paragraaf](https://geonovum.github.io/IMGeo-objectenhandboek/functioneelgebied#functioneel-gebied-fug) over functioneel gebied voor meer informatie. Functionele gebieden bevatten geen plaatsbepalingspunten.
 
 ## type
 
