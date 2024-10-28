@@ -181,6 +181,8 @@ Terrein met als functie het tijdelijk of langdurig bergen van
 Nee, optionele inhoud IMGeo.
 
 ![](media/waterbergingsgebied.jpg)
+![image](https://github.com/user-attachments/assets/fbea9cac-32ce-44f5-a2d3-728d454fcfb2)
+
 
 ### maatschappelijke en/of publieksvoorziening
 
