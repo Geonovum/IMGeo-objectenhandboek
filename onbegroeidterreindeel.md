@@ -277,7 +277,7 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-Zie wegdeel, sierbestrating.
+Zie wegdeel, beton element.
 
 ### half verhard
 

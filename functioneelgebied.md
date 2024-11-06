@@ -181,7 +181,7 @@ Terrein met als functie het tijdelijk of langdurig bergen van
 Nee, optionele inhoud IMGeo.
 
 ![](media/waterbergingsgebied.jpg)
-![image](https://github.com/user-attachments/assets/fbea9cac-32ce-44f5-a2d3-728d454fcfb2)
+![image](https://github.com/user-attachments/assets/ba83c0cf-96c6-4417-8ddb-001267970874)
 
 
 ### maatschappelijke en/of publieksvoorziening
@@ -273,6 +273,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
+![image](https://github.com/user-attachments/assets/38bef112-17cb-42f8-a01f-482d8a93091d)
+
+
 Een kaartje wordt nog toegevoegd waarop dit functioneel gebied is afgebeeld op
 de topografie.
 
@@ -289,6 +292,9 @@ vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als
 Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
+
+![image](https://github.com/user-attachments/assets/89771a60-62e2-44f1-a0c2-0ddc9fffbddd)
+
 
 Een kaartje wordt nog toegevoegd waarop dit functioneel gebied is afgebeeld op
 de topografie.
@@ -309,6 +315,9 @@ sportbeoefening.
 Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
+
+![image](https://github.com/user-attachments/assets/c6b2a94c-4fc8-44cb-bf6f-cb80c6de4697)
+
 
 Een kaartje wordt nog toegevoegd waarop dit functioneel gebied is afgebeeld op
 de topografie.
@@ -404,6 +413,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
+![image](https://github.com/user-attachments/assets/b76dadce-1d66-4949-a09d-f41050c2f43f)
+
+
 Een kaartje wordt nog toegevoegd waarop dit functioneel gebied is afgebeeld op
 de topografie.
 
@@ -442,6 +454,13 @@ opruimplicht bestaat.
 **Verplicht?**
 
 Nee, optionele inhoud IMGeo.
+
+**Voorbeeld**
+
+![image](https://github.com/user-attachments/assets/49383a11-63c9-4ef8-8558-a6474b9923ab)
+
+Een kaartje wordt nog toegevoegd waarop dit functioneel gebied is afgebeeld op
+de topografie.
 
 ### recreatie: volkstuin
 

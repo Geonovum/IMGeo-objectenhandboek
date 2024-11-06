@@ -1,7 +1,7 @@
 ---
-title: WGD | Wegdeel
-permalink: /wegdeel
-sort: 2
+title: "WGD: Wegdeel"
+permalink: "/wegdeel"
+sort: 1
 ---
 
 # Wegdeel (WGD)
@@ -693,6 +693,8 @@ Ja, verplichte inhoud BGT.
 **Voorbeeld**
 
 ![](media/9849e4cb1f0f4fff7df334be867ff6a3.jpg)
+![0b27bee1-ff99-436e-bd06-0e7aec16e387](https://github.com/user-attachments/assets/6eedf01f-3b0f-4567-9798-b9f50382ccd0)
+
 
 B:
 

@@ -52,7 +52,12 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![](media/c66f942131725aff9b96d25e14997e6f.jpg)
+
+![Screenshot 2024-09-09 105536](https://github.com/user-attachments/assets/f2e0a9a1-b889-4282-9c06-b5c77209168b)
+![Screenshot 2024-09-09 105722](https://github.com/user-attachments/assets/e9bd3142-655d-427b-9b5a-98ba16d4c835)
+![c66f942131725aff9b96d25e14997e6f](https://github.com/user-attachments/assets/ace93e12-313a-4870-9819-818d3eacf7d5)
+
+
 
 | **Bak**                | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|

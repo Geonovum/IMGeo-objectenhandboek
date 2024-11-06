@@ -70,6 +70,8 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 ![](media/438e982d694caa43cf61cb28097ca05a.jpg)
+![image](https://github.com/user-attachments/assets/7f5fa401-fda6-4daf-9179-0b01e872efe9)
+
 
 | **Paal**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
@@ -106,6 +108,10 @@ Paal waaraan een of meerdere verkeersborden zijn bevestigd.
 Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
+
+![1000015945](https://github.com/user-attachments/assets/627fb374-44d9-4ce8-a3e4-80efc0eb006f)
+
+
 
 | **Paal**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
@@ -185,8 +191,10 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 ![](media/c493f7d4fdb14695fd42604ddcc2c8f4.jpg)
-
 ![](media/c0669879bdb629cc8b16d8319fecc49a.jpg)
+![image](https://github.com/user-attachments/assets/263e6319-1dc1-432e-9d83-bbd02b9a0b54)
+
+
 
 | **Paal**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|

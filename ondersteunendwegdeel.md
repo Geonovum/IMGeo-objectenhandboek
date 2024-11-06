@@ -1,7 +1,7 @@
 ---
-title: OWG | Ondersteunend wegdeel
+title: "OWG: Ondersteunend wegdeel"
 permalink: /ondersteunendwegdeel
-sort: 3
+sort: 2
 ---
 
 # Ondersteunend wegdeel (OWG)

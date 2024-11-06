@@ -32,7 +32,7 @@ Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus
 
 >   **Aandachtspunten**
 
->   Voor veel panden is de grondvlakgeometrie overgenomen door de BAG als geometrie voor de buitenomtrek van het pand omdat deze geometrieën identiek zijn, met inachtneming van de in vorige paragraaf vermelde twee regels.
+>   Voor veel panden is de grondvlakgeometrie overgenomen door de BAG als geometrie voor de buitenomtrek van het pand omdat deze geometrieën identiek zijn, met inachtneming van de in vorige paragraaf vermelde twee voorwaardes.
 
 ### IMGeo
 

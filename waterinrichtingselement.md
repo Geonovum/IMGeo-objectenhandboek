@@ -33,6 +33,8 @@ Nee, optionele inhoud IMGeo.
 
 ![](media/a4cf352dae09facadfe020246ab711b3.jpg)
 
+![image](https://github.com/user-attachments/assets/ad2f7eac-5577-4e9d-a07f-830352c87d8d)
+
 | **Waterinrichtingselement** | **Attribuutwaarde** | **Opmerkingen** |
 |-----------------------------|---------------------|-----------------|
 | type                        | remmingswerk        |                 |
@@ -75,6 +77,8 @@ Nee, optionele inhoud IMGeo.
 ![](media/4df1ba3a3ca1048817c9f2459b4bf452.jpg)
 
 ![](media/a594c60e211a139a123df44d18cc4be5.jpg)
+
+![image](https://github.com/user-attachments/assets/e7ddca1b-0411-48d9-98c2-b81615346100)
 
 | **Waterinrichtingselement** | **Attribuutwaarde** | **Opmerkingen** |
 |-----------------------------|---------------------|-----------------|

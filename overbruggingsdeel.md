@@ -190,6 +190,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
+![image](https://github.com/user-attachments/assets/0dfc02b7-f128-4c93-b07c-f995a92b1968)
+
+
 D :
 
 | **Overbruggingsdeel**  | **Attribuutwaarde** | **Opmerkingen** |
@@ -280,6 +283,8 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 ![](media/80c6a37e5135bf50c73d301eb05c827b.jpg)
+
+![image](https://github.com/user-attachments/assets/14e87e07-bdd5-4981-87eb-6cc314585ae7)
 
 A:
 

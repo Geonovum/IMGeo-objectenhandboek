@@ -51,6 +51,8 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 ![](media/c5212a96b245334511b48517867802a5.jpg)
+![1000015946](https://github.com/user-attachments/assets/f0854cac-683c-4a65-abb5-ed6fd386f45c)
+
 
 | **Kast**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
@@ -70,7 +72,7 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 Een afbeelding van een gaskast kunt u sturen
-aan: [imgeo\@geonovum.nl](mailto:info@geonovum.nl)
+aan: [imgeo@geonovum.nl](mailto:info@geonovum.nl)
 
 | **Kast**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|
@@ -109,6 +111,8 @@ Nee, optionele inhoud IMGeo.
 **Voorbeeld**
 
 ![](media/3689d0811ef99ff8968e1625ede8f4ea.jpg)
+![1000015947](https://github.com/user-attachments/assets/272ace60-5515-4415-a983-b0d792bd0b96)
+
 
 | **Kast**               | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|

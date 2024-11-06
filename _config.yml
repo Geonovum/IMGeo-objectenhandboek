@@ -12,7 +12,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: clearpathrobotics/jekyll-rtd-theme 
 
 readme_index:
   with_frontmatter: true
@@ -43,12 +43,17 @@ script: |
   function jiraHelpdesk(callback) {var jhdScript = document.createElement('script');jhdScript.type = 'text/javascript';  jhdScript.setAttribute('data-jsd-embedded', null);jhdScript.setAttribute('data-key', 'a1b2eab7-f8ab-4bf1-a347-5dc2aab179eb');  jhdScript.setAttribute('data-base-url', 'https://jsd-widget.atlassian.com');  jhdScript.src='https://jsd-widget.atlassian.com/assets/embed.js';if(jhdScript.readyState){jhdScript.onreadystatechange = function() {if ( jhdScript.readyState === 'loaded' || jhdScript.readyState === 'complete' ) {jhdScript.onreadystatechange = null;callback();}};} else {jhdScript.onload = function() {callback();};} document.getElementsByTagName('head')[0].appendChild(jhdScript);}
   jiraHelpdesk(function() {var DOMContentLoaded_event = document.createEvent('Event');  DOMContentLoaded_event.initEvent('DOMContentLoaded', true, true);window.document.dispatchEvent(DOMContentLoaded_event);});
   
-  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
+  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
+
+  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/synoniemenlijst">&nbsp;&nbsp;Synoniemenlijst</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
+  document.getElementsByClassName('level-1')[39].style.visibility = 'hidden';
+  
   
    document.getElementsByClassName('navigation-top')[0].innerHTML= document.getElementsByClassName('navigation-top')[0].innerHTML + '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>';   
    document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten &times;</small></a><iframe class="printFrame" src="https://md2pdf.gewoongoedegeodata.nl/imgeo-objectenhandboek" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
-  
+ 
+    
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   
   .sidebar{background: #fff;}
