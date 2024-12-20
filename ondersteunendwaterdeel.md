@@ -191,9 +191,11 @@ onderloopt.
 Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
+Een afbeelding van een slik kunt u sturen aan: imgeo@geonovum.nl
 
-
+<!--
 | **OndersteunendWaterdeel** | **Attribuutwaarde** | **Opmerkingen** |
 |----------------------------|---------------------|-----------------|
 | type                       | slik                |                 |
 | relatieveHoogteligging     | 0                   |                 |
+--!>
