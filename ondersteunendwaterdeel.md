@@ -192,8 +192,6 @@ Ja, verplichte inhoud BGT.
 
 **Voorbeeld**
 
-![OndersteunendWaterdeel, slik](media/40d9840170b4007a09bdd8c1fd8a5b23.png)
-
 
 | **OndersteunendWaterdeel** | **Attribuutwaarde** | **Opmerkingen** |
 |----------------------------|---------------------|-----------------|
