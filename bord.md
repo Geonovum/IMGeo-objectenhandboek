@@ -1,10 +1,11 @@
 ---
-title: BRD | Bord
+title: Bord
+abbr: BRD
 permalink: /bord
 sort: 20
 ---
 
-Bord (BRD)
+Bord
 ====
 
 **Definitie**

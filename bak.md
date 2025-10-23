@@ -1,10 +1,11 @@
 ---
-title: BAK | Bak
+title: Bak
+abbr: BAK
 permalink: /bak
 sort: 19
 ---
 
-Bak (BAK) 
+Bak
 ===
 
 **Definitie**

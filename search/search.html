@@ -1,0 +1,97 @@
+---
+layout: default
+title: Zoeken
+nav_exclude: true
+permalink: /search
+---
+<h1>Zoeken in IMGeo Objectenhandboek</h1>
+
+<form id="search-form">
+  <input type="text" id="search-box" placeholder="Zoeken...">
+  <button type="submit">Zoeken</button>
+</form>
+
+<div id="results"></div>
+
+<script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
+<script>
+fetch('{{ site.baseurl }}/search.json')
+  .then(res => res.json())
+  .then(pages => {
+    const idx = lunr(function () {
+      this.ref('url');
+      this.field('title');
+      this.field('content');
+      pages.forEach(doc => this.add(doc));
+    });
+
+    const form = document.getElementById('search-form');
+    const input = document.getElementById('search-box');
+    const resultsDiv = document.getElementById('results');
+
+    // zoekfunctie als aparte functie
+    function doSearch(query) {
+      if (!query) {
+        resultsDiv.innerHTML = '<p>Voer een zoekterm in.</p>';
+        return;
+      }
+
+     const queryTerms = query.split(/\s+/).map(t => '*' + t + '*').join(' ');
+     const results = idx.search(queryTerms);
+
+      if (!results.length) {
+        resultsDiv.innerHTML = '<p>Geen resultaten gevonden.</p>';
+        return;
+      }
+
+      resultsDiv.innerHTML = results.map(r => {
+        const page = pages.find(p => p.url === r.ref);
+
+        // snippet rondom de match
+        const contentLower = page.content.toLowerCase();
+        const queryLower = query.toLowerCase();
+        const pos = contentLower.indexOf(queryLower);
+
+       
+        let snippet = '';
+
+        console.log(contentLower);
+        console.log(pos);
+        if (pos >= 0) {
+          const start = Math.max(0, pos - 50);
+          const end = Math.min(page.content.length, pos + 100);
+          snippet = page.content.substring(start, end).replace(/\n/g, ' ');
+
+          // highlight zoekterm (case-insensitive)
+          const regex = new RegExp(query, 'gi');
+          snippet = snippet.replace(regex, match => `<mark>${match}</mark>`);
+
+          snippet = '...' + snippet + '...';
+        }   
+
+        const pageUrl = page.url + '?q=' + encodeURIComponent(query);
+        return `
+          <div class="search-result">
+            <h3><a href="${pageUrl}">${page.title}</a></h3>
+            <p>${snippet}</p>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // submit-handler
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      doSearch(input.value);
+    });
+
+    // bij pagina-load kijken naar ?q=
+    const params = new URLSearchParams(window.location.search);
+    const queryFromUrl = params.get('q');
+    if (queryFromUrl) {
+      input.value = queryFromUrl;
+      doSearch(queryFromUrl); // direct resultaten tonen
+    }
+  });
+</script>
+

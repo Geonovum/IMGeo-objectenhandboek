@@ -1,11 +1,12 @@
 ---
 
-title: BRT | Buurt
+title: Buurt
+abbr: BRT
 permalink: /buurt
 sort: 33
 ---
 
-Buurt (BRT)
+Buurt
 =====
 
 **Definitie**

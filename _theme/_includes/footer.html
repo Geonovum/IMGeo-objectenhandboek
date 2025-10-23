@@ -1,0 +1,63 @@
+<footer>
+
+
+    {%- if (site.prev_next_buttons_location == 'bottom' or  site.prev_next_buttons_location =='both') and (previous_page or next_page) %}
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      {%- if next_page %}
+        <a href="{{ next_page.url | absolute_url }}" class="btn btn-neutral float-right" title="{{ next_page.title }}">Next <span class="icon icon-circle-arrow-right"></span></a>
+      {%- endif %}
+      {%- if previous_page %}
+        <a href="{{ previous_page.url | absolute_url }}" class="btn btn-neutral" title="{{ previous_page.title }}"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      {%- endif %}
+    </div>
+    {%- endif %}
+
+    <hr/>
+
+   <div class="footer-content">
+  <div class="footer-text">
+    <p><small>
+      Laatst bijgewerkt: 25-09-2025 &nbsp;&nbsp; 
+              {%- if site.site_author %}
+          © Copyright {{ site.time | date: "%Y" }} {{ site.site_author }}.
+        {%- endif %}
+        {%- if site.github.build_revision %}
+          {%- if site.repo_url %}
+            <span class="commit">Revision <a href="{{ site.repo_url | url }}/commit/{{ site.github.build_revision }}" target="_blank"><code>{{ site.github.build_revision | truncate: 8, "" }}</code></a>.
+          {%- else %}
+            <span class="commit">Revision <code>{{ site.github.build_revision | truncate: 8, "" }}</code>.</span>
+          {%- endif %}
+        {%- endif %}
+        <br />
+      Dit objectenhandboek is een <em>praktijkrichtlijn</em> die helpt bij de toepassing van de BGT- en IMGeo-standaarden.  
+      De officiële catalogi zijn altijd leidend.  
+      Geonovum doet zijn uiterste best deze praktijkrichtlijn goed te laten aansluiten bij de uitvoeringspraktijk en wettelijke verplichtingen.  
+      Er kunnen echter discrepanties ontstaan, bijvoorbeeld in voorbeelden of FAQ-antwoorden.  
+      Aan de inhoud kunnen geen rechten worden ontleend.
+    </small></p>
+  </div>
+  <div class="footer-logo">
+    <img src="https://www.geonovum.nl/logo.svg" alt="Geonovum logo">
+  </div>
+</div>
+
+  
+      
+        
+  
+    <small style="text-align: center; width: 100%">
+    <!--Built with
+    {%- if site.github %}
+    <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+    {%- else %}
+    <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
+    {%- endif %}
+    using a <a href="https://github.com/carlosperate/jekyll-theme-rtd" target="_blank">theme</a>
+    based on <a href="https://sphinx-rtd-theme.readthedocs.io" target="_blank">Read the Docs</a-->.
+
+    </small>
+
+
+
+
+</footer>

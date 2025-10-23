@@ -1,4 +1,27 @@
-Hieronder een overzicht met de inhoudelijke wijzigingen 
+Hieronder een overzicht met de wijzigingen 
+
+20251023:
+
+- Foto van slik toegevoegd bij OndersteunenendWaterdeel
+- Hier en daar formattering licht aangepast.
+- Tekst bij synoniemenlijst aangepast.
+- Drieletterige afkorting beter zichtbaar gemaakt.
+
+20250929_adbgnm:
+1. Jekyll-template fixes
+   * _config.yaml: verwijzing van external-theme naar local-theme aangepast.
+   * rd-jekyll-theme lokaal geïnstalleerd en geïntegreerd.
+2. Navigatie & TOC
+   * nav_exclude toegevoegd in header van specifieke .md bestanden om te voorkomen dat deze verschijnen in TOC/navigatie.
+   * StUF Lk01 afkortingen toegevoegd in header van .md bestanden (abbr) en correct opgenomen in TOC/navigatie en paginaweergave.
+3. Content & Metadata
+   * Rechtenbeleid aangepast naar CC BY-ND 3.0.
+   * Footer bijgewerkt met actuele disclaimer.
+4. UI/UX & functionaliteit
+   * Zoekfunctie herbouwd/gehersteld met Lunr.js.
+   * Print-tool verwijderd en vervangen door Git-logo.
+   * RO font hersteld
+
 
 2022-12-09
 Toevoegen placeholder Veelgestelde vragen (issue #20) en 'Stel een vraag' contactformulier-button (issue #21).

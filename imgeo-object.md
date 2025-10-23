@@ -1,6 +1,7 @@
 ---
 permalink: /imgeo-object
 sort: 1
+nav_exclude: true
 ---
 
 # IMGeo-object

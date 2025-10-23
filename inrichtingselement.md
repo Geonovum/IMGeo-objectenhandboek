@@ -1,4 +1,6 @@
 ---
+title: Inrichtingselement
+abbr: "..."
 permalink: /inrichtingselement
 sort: 18
 ---

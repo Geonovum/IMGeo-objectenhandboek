@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "RO Serif";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSerif_2_0/RijksoverheidSerif-Regular_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Serif";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSerif_2_0/RijksoverheidSerif-Italic_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RO Serif";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSerif_2_0/RijksoverheidSerif-Bold_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Serif";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSerif_2_0/RijksoverheidSerif-BoldItalic_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "RO Sans Heading";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansHeading-Regular_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Sans Heading";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansHeading-Italic_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RO Sans Heading";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansHeading-Bold_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Sans Heading";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansHeading-BoldItalic_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "RO Sans";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansText-Regular_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Sans";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansText-Italic_2_0.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RO Sans";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansText-Bold_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RO Sans";
+  src: url('https://tools.geostandaarden.nl/respec/style/fonts/RijksoverheidSans_2_0/RijksoverheidSansText-BoldItalic_2_0.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}

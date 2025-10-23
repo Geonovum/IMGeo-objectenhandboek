@@ -1,10 +1,11 @@
 ---
-title: KST | Kast
+title: Kast
+abbr: KST
 permalink: /kast
 sort: 22
 ---
 
-Kast (KST)
+Kast
 ====
 
 **Definitie**

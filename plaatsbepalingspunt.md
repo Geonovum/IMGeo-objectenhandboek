@@ -1,10 +1,11 @@
 ---
-title: PBP | Plaatsbepalingspunt
+title: Plaatsbepalingspunt
+abbr: PBP
 permalink: /plaatsbepalingspunt
 sort: 38
 ---
 
-Plaatsbepalingspunt (PBP)
+Plaatsbepalingspunt
 ===================
 
 **Definitie**

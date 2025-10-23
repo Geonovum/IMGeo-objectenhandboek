@@ -1,0 +1,150 @@
+html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote):not(h1):not(h2):not(h3):not(h4):not(h5):not(blockquote p strong) {
+  font-family: "RO Sans", Arial, sans-serif;  
+}
+
+p, blockquote {
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5 {
+ font-family: "RO Sans Heading", Arial, sans-serif;
+}
+
+.wy-nav-side {
+    background: #fcfcfc;    
+}
+
+.wy-menu-vertical a {
+    color: black;    
+}
+
+
+.toctree-l1 a:hover, .toctree-l1 a:hover .lk01 {
+    background: #2980B9 !important;  
+    color: white;
+} 
+
+.toctree-l1 a:hover .lk01 {
+    border: solid 1px white;
+}
+
+.current {
+    /*margin-left: 39px;*/
+}
+
+.rst-versions {
+    background: #2980B9 !important; 
+    line-height: 18px;
+    
+}
+
+.rst-versions a, .beheer {
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.beheer-info {
+    background: #404040; 
+    padding: 6px;
+    font-size: small;
+    text-align: justify;
+
+}
+
+.beheer-info dd a {
+ font-weight: normal;
+ padding: 10px;
+ margin-left: 10px;
+ font-size: 90%;
+}
+
+
+
+.lk01 {
+    color: #2980B9;
+    border: solid 1px #2980B9;
+    font-size: xx-small;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+    display: inline-block !important;    
+}
+
+h1 .lk01 {
+    font-size: xx-large;
+    float: right;
+    width: auto;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+.faq, .syn, .beheer {
+    padding: 6px;
+}
+
+#logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
+
+blockquote {
+    padding: 0 1em;    
+    border-left: .25em solid #dfe2e5;
+    
+}
+
+blockquote p {
+    font-family: "RO Serif", Georgia, serif !important;
+    color: #6a737d;
+}
+
+table {
+    display: block;
+    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.branch {
+    font-size: small;
+    color: #27AE60;
+}
+
+
+table {   
+    margin: 15px;
+}
+
+table thead {
+
+    background: #2980B9;
+    color: white;
+
+}
+
+tr {
+
+    padding: 10px;
+
+}
+
+#results {
+    margin-top: 40px;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;        
+  gap: 1em;           
+  text-align:justify;            
+}
+
+.footer-logo img {
+  height: 100px; 
+  display: block;
+}
+
+
+

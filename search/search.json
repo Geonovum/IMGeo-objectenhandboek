@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: /search.json
+nav_exclude: true
+---
+[
+{%- assign pages_to_index = site.pages | where_exp:"page","page.search_exclude != true" -%}
+{%- for page in pages_to_index -%}
+  { 
+    "title": {{ page.title | jsonify }},
+    "url": {{ page.url | relative_url | jsonify }},
+    "content": {{ page.content | strip_html | strip_newlines | jsonify }}
+  }{%- unless forloop.last %},{% endunless -%}
+{%- endfor -%}
+]

@@ -1,10 +1,11 @@
 ---
-title: WSP | Waterschap
+title: Waterschap
+abbr: WSP
 permalink: /waterschap
 sort: 36
 ---
 
-Waterschap (WSP)
+Waterschap
 ==========
 
 **Definitie**

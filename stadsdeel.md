@@ -1,10 +1,11 @@
 ---
-title: STD | Stadsdeel
+title: Stadsdeel
+abbr: STD
 permalink: /stadsdeel
 sort: 35
 ---
 
-Stadsdeel (STD)
+Stadsdeel
 =========
 
 **Definitie**

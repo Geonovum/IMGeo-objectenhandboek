@@ -1,10 +1,11 @@
 ---
-title: SNS | Sensor
+title: Sensor
+abbr: SNS
 permalink: /sensor
 sort: 26
 ---
 
-Sensor (SNS)
+Sensor
 ======
 
 **Definitie**

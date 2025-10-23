@@ -1,3 +1,6 @@
+#url: "https://geonovum.github.io"
+repo_url: "https://github.com/Geonovum/IMGeo-objectenhandboek"
+base_url: "/IMGeo-objectenhandboek-dev"
 title: IMGeo objectenhandboek
 lang: nl
 description: Praktijkhandleiding voor toepassing van de BGT|IMGeo standaarden bij de objectafbakening
@@ -6,86 +9,26 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  #- jekyll-remote-theme
 
 exclude:
   - Makefile
   - Gemfile
   - Gemfile.lock
 
-remote_theme: clearpathrobotics/jekyll-rtd-theme
+theme: null
+#remote_theme: clearpathrobotics/jekyll-rtd-theme
 
+include:
+  - _theme
+
+
+
+layouts_dir: _theme/_layouts
+includes_dir: _theme/_includes
+sass:
+  sass_dir: _theme/_sass
+
+  
 readme_index:
-  with_frontmatter: true
-  
-script: | 
-  console.log("Hallo IMGeo objectenhandboek!");
-  var url_prefix = "https://geonovum.github.io/IMGeo-objectenhandboek/";
-  var breadcrumbs = window.location.href.replace(url_prefix, '').split('/');
-  breadcrumbs.forEach(addLink);
-  function addLink(value, index, array) { array[index] = '<a href="/' + value + '">' + value + '</a>'; };
-  document.getElementsByClassName("breadcrumb-item")[1].innerHTML = breadcrumbs.join(' / ').replace(/.html|.md|#/g, '');
-  var toclevel1 = document.getElementsByClassName('level-1');
-  for (let tocitem of toclevel1) { tocitem.getElementsByTagName('a')[0].innerHTML = tocitem.getElementsByTagName('a')[0].innerHTML.split('. ')[1];}
-  document.getElementsByClassName('input-sm')[0].placeholder = "Zoeken in het objectenhandboek...";  
-  if (document.getElementsByClassName('search-results').length > 0 ) { document.getElementsByClassName('search-results')[0].getElementsByTagName('h2')[0].innerHTML = 'Zoekresultaten';};
-  if (document.getElementsByClassName('search-results').length > 0) {document.getElementsByClassName('search-results')[0].getElementsByClassName('summary')[0].innerHTML = document.getElementsByClassName('search-results')[0].getElementsByClassName('summary')[0].innerHTML.replace('Search finished, found', 'Zoekopdracht voltooid,').replace('page(s) matching the search query', 'pagina (\'s) gevonden die overeenkomen met de zoekopdracht');};
-  var logo = document.createElement("div"); 
-  var lgclass = document.createAttribute("id");      
-  lgclass.value = "logo";                 
-  logo.setAttributeNode(lgclass); 
-  var content = document.getElementsByClassName("content")[0]; 
-  content.insertBefore(logo, content.firstChild);   
-  var lgimg = 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png';
-  document.getElementById("logo").innerHTML = '<img src="'+lgimg+'" title="Ministerie van BZK" />';
-  document.getElementsByClassName('status')[0].getElementsByClassName('title')[0].innerHTML = '<i class="fa fa-book"></i> Beheer en licentie';
-  document.getElementsByClassName('addons')[0].innerHTML = '<dl><dt><small>Geonovum ontwikkelt en beheert het digitale objectenhandboek BGT | IMGeo in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties.<br /><br />Suggesties en (betere) foto\'s zijn van harte welkom op <a href="mailto:imgeo@geonovum.nl"> imgeo@geonovum.nl </a></small>.</dt></dl><hr />' + document.getElementsByClassName('addons')[0].innerHTML;   
-  
-  function jiraHelpdesk(callback) {var jhdScript = document.createElement('script');jhdScript.type = 'text/javascript';  jhdScript.setAttribute('data-jsd-embedded', null);jhdScript.setAttribute('data-key', 'a1b2eab7-f8ab-4bf1-a347-5dc2aab179eb');  jhdScript.setAttribute('data-base-url', 'https://jsd-widget.atlassian.com');  jhdScript.src='https://jsd-widget.atlassian.com/assets/embed.js';if(jhdScript.readyState){jhdScript.onreadystatechange = function() {if ( jhdScript.readyState === 'loaded' || jhdScript.readyState === 'complete' ) {jhdScript.onreadystatechange = null;callback();}};} else {jhdScript.onload = function() {callback();};} document.getElementsByTagName('head')[0].appendChild(jhdScript);}
-  jiraHelpdesk(function() {var DOMContentLoaded_event = document.createEvent('Event');  DOMContentLoaded_event.initEvent('DOMContentLoaded', true, true);window.document.dispatchEvent(DOMContentLoaded_event);});
-  
-  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
-  //document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
-
-  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek/synoniemenlijst">&nbsp;&nbsp;Synoniemenlijst</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
-  //document.getElementsByClassName('level-1')[37].style.visibility = 'hidden';
-  
-  
-   document.getElementsByClassName('navigation-top')[0].innerHTML= document.getElementsByClassName('navigation-top')[0].innerHTML + '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>';   
-   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten &times;</small></a><iframe class="printFrame" src="https://md2pdf.gewoongoedegeodata.nl/imgeo-objectenhandboek" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
- 
-    
-scss: |
-  @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   
-  .sidebar{background: #fff;}
-  a {color:#008dc9;}
-  .toctree a{color:#000; padding-left: 8}
-  .toctree a:active {background: #fff;}
-  .level-1, .level-2, .level-3, .level-4, .level-5 {background:#fff};
-  body, .markdown-body {font-family: 'RO Sans', sans-serif;}  
-  .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 {color: #00387d; font-family: 'RO Sans', sans-serif;}  
-  .markdown-body blockquote {font-family: 'RO Serif', serif}
-  .container{background: #fff;}
-  .header{background: #008dc9;}
-  .addons-wrap .status, addons {background:#007ea9;color:#000}
-  .input-sm:before{content: " " }
-  .header { display:none; }
-  #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
-  @media all and (max-width: 1300px) {
-        iframe#jsd-widget {        
-        right:40px !important;     
-        }
-  }
-  @media all and (min-width: 1300px) {
-        iframe#jsd-widget {        
-        left: 1065px !important;       
-        }
-  } 
-  .faq { background-color: #007ea9; padding: 12px;} 
-  
-  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:500px;box-shadow: 3px 3px- #eee;margin-top:-250px;
-  background:#fff;border: solid 1px grey;text-align:right;z-index:500;border-radius:5px;box-shadow: 0 1px 2px 0;padding: 5px;}
-  .printFrame { margin:0;border: none; width:100%;height:100%}
-  
-  .edit{visibility:hidden}
-  
-  body{scroll-padding:400px};
+  with_frontmatter: true 

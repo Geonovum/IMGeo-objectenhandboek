@@ -1,10 +1,11 @@
 ---
-title: SPR | Spoor
+title: Spoor
+abbr: SPR
 permalink: /spoor
 sort: 4
 ---
 
-# Spoor (SPR)
+# Spoor
 
 **Definitie**
 
@@ -17,9 +18,9 @@ De as van het spoor, dat wil zeggen het midden van twee stalen staven op een ond
 Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus/bgt/#objectafbakening-spoor)
 
 >   **Regels voor opname**
-
+>
 >   Het midden tussen de twee staven van een spoor, de as van het spoor, wordt als lijn vastgelegd.
-
+>
 >   De as van elk afzonderlijk spoor wordt weergegeven.
 
 ## functie

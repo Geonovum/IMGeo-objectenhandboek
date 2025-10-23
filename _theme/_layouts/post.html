@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get('q');
+  if (!query) return;
+
+  // highlight alle matches in de pagina
+  const bodyText = document.body.innerHTML;
+  const regex = new RegExp(query, 'gi');
+  document.body.innerHTML = bodyText.replace(regex, match => `<mark>${match}</mark>`);
+
+
+  var h1 = document.querySelector('h1');
+  console.log(h1[0]);
+  var abbr = document.getElementById('abbr').textContent;
+    console.log(abbr);
+    var span = document.createElement('span');
+    span.className = 'lk01';
+    span.textContent = abbr;
+
+    h1.appendChild(span);
+});
+
+
+
+
+
+</script>
+
+{{ content }}

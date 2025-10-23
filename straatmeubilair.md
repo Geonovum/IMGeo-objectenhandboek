@@ -1,10 +1,11 @@
 ---
-title: STM | Straatmeubilair
+title: Straatmeubilair
+abbr: STM
 permalink: /straatmeubilair
 sort: 27
 ---
 
-Straatmeubilair (STM)
+Straatmeubilair
 ===============
 
 **Definitie**  

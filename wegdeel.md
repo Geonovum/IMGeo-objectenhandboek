@@ -1,10 +1,11 @@
 ---
-title: "WGD: Wegdeel"
-permalink: "/wegdeel"
+title: Wegdeel
+abbr: WGD
+permalink: /wegdeel
 sort: 1
 ---
 
-# Wegdeel (WGD)
+# Wegdeel
 
 **Definitie**
 

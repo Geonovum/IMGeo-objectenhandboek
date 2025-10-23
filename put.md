@@ -1,10 +1,11 @@
 ---
-title: PUT | Put
+title: Put
+abbr: PUT
 permalink: /put
 sort: 25
 ---
 
-Put (PUT)
+Put
 ===
 
 **Definitie**

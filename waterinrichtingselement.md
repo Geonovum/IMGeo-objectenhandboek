@@ -1,10 +1,11 @@
 ---
-title: WTI | Waterinrichtingselement
+title: Waterinrichtingselement
+abbr: WTI
 permalink: /waterinrichtingselement
 sort: 28
 ---
 
-Waterinrichtingselement (WTI)
+Waterinrichtingselement
 =======================
 
 **Definitie**
